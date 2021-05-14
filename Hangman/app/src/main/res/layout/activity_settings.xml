@@ -19,6 +19,11 @@
 
     <!-- Footer -->
 
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <RelativeLayout
         android:id="@+id/linearLayout1"
         android:layout_width="match_parent"

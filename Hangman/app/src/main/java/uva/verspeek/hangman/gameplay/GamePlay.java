@@ -34,7 +34,6 @@ public class GamePlay {
 
 		GridView keyboard = (GridView) context.findViewById(R.id.grid);
 		keyboard.setOnItemClickListener(null);
-		context.soundPool.play(context.soundMap.get(4), 1, 1, 0, 0, 1);
 
 		AlertDialog.Builder alert = new AlertDialog.Builder(context);
 
@@ -86,8 +85,6 @@ public class GamePlay {
 			child.setEnabled(false);
 		}
 
-		context.soundPool.play(context.soundMap.get(3), 1, 1, 0, 0, 1);
-
 		Toast.makeText(context.getApplicationContext(),
 				"You lose! The word was " + context.randomWord,
 				Toast.LENGTH_LONG).show();
@@ -101,7 +98,8 @@ public class GamePlay {
 
 		Handler h = new Handler();
 
-		// 延时时间(毫秒)。(在进入最高分之前，你可以看到死亡刽子手的动画)
+		// delay time in miliseconds. (before going to highscores, so you can
+		// see dead hangman animation)
 		h.postDelayed(r, 3500);
 
 	}
@@ -144,15 +142,6 @@ public class GamePlay {
 	public void newGuess(String letter) {
 		context.guessedLetters.add(letter);
 		context.moves = getMistakes();
-		String displayWord = context.randomWord;
-		if (!displayWord.contains(letter)) {
-			context.soundPool.play(context.soundMap.get(5), 1, 1, 0, 0, 1);
-			Log.d("Input",":false");
-		}
-		else {
-			context.soundPool.play(context.soundMap.get(2), 1, 1, 0, 0, 1);
-			Log.d("Input",":true");
-		}
 		TextView movesLeft = (TextView) context.findViewById(R.id.moves);
 		movesLeft.setText("Moves left: " + (context.maxMoves - context.moves));
 		showLetters();
@@ -162,7 +151,6 @@ public class GamePlay {
 		String displayWord = context.randomWord;
 		String noDuplicates = removeDuplicateChars(context.randomWord);
 		boolean win = true;
-		int flag = 0;
 		for (int i = 0; i < noDuplicates.length(); i++) {
 			Log.d("letter", "" + noDuplicates.charAt(i));
 			if (!context.guessedLetters.contains("" + noDuplicates.charAt(i))) {
@@ -185,7 +173,7 @@ public class GamePlay {
 						+ (((float) (numberHangmans) / (context.maxMoves + 1.0)) * (context.moves)));
 		numberHangmans--;
 
-		// 确保最后的动画总是在最后一次移动时显示
+		// make sure the last animation is always displayed on the last move
 		if (frame == numberHangmans && context.moves != context.maxMoves)
 			frame = numberHangmans - 1;
 		if (frame > numberHangmans)

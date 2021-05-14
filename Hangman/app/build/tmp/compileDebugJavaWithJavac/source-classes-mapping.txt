@@ -10,6 +10,7 @@ uva/verspeek/hangman/settings/SettingsActivity.java
  uva.verspeek.hangman.settings.SettingsActivity
  uva.verspeek.hangman.settings.SettingsActivity$1
  uva.verspeek.hangman.settings.SettingsActivity$2
+ uva.verspeek.hangman.settings.SettingsActivity$3
 uva/verspeek/hangman/gameplay/MainActivity.java
  uva.verspeek.hangman.gameplay.MainActivity
  uva.verspeek.hangman.gameplay.MainActivity$1
@@ -31,3 +32,7 @@ uva/verspeek/hangman/gameplay/GamePlay.java
 uva/verspeek/hangman/highscore/HighScoreActivity.java
  uva.verspeek.hangman.highscore.HighScoreActivity
  uva.verspeek.hangman.highscore.HighScoreActivity$1
+uva/verspeek/hangman/start/StartActivity.java
+ uva.verspeek.hangman.start.StartActivity
+ uva.verspeek.hangman.start.StartActivity$1
+ uva.verspeek.hangman.start.StartActivity$2
