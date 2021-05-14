@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:TextViewandroid="http://schemas.android.com/apk/res-auto"
+    xmlns:ImageViewandroid="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/mainMenuBackground"
+        android:src="@drawable/light"
+        android:adjustViewBounds="true"
+        android:gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+    <LinearLayout
+        android:background="@drawable/hangmania"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/babyButton"
+            android:src="@drawable/hangmanid0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor= "#FFFFFF"
+            android:textSize="14sp"
+            android:focusable="false"
+            android:layout_gravity="center_horizontal"
+            android:text="都"
+        android:id="@+id/babyText"/>
+
+        <ImageView
+            android:id="@+id/kidsButton"
+            android:src="@drawable/hangmanid1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor= "#FFFFFF"
+            android:textSize="14sp"
+            android:focusable="false"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/hello_world"
+        android:id="@+id/kidsText"/>
+
+        <ImageView
+            android:id="@+id/adultsButton"
+            android:src="@drawable/hangmanid3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor= "#FFFFFF"
+            android:textSize="14sp"
+            android:focusable="false"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/hello_world"
+        android:id="@+id/adultsText"/>
+    </LinearLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
