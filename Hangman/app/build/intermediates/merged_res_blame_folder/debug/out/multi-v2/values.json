@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\AllTry\\Android workspace\\Hangman\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "E:\\AndroidWork\\Hangman\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "D:\\AllTry\\Android workspace\\Hangman\\app\\src\\main\\res\\values\\dimens.xml",
+                    "source": "E:\\AndroidWork\\Hangman\\app\\src\\main\\res\\values\\color.xml",
+                    "from": {
+                        "startLines": "6,4,3,2,5",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "192,121,85,51,156",
+                        "endColumns": "35,34,35,33,35",
+                        "endOffsets": "227,155,120,84,191"
+                    },
+                    "to": {
+                        "startLines": "22,23,24,25,26",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "467,507,546,586,624",
+                        "endColumns": "39,38,39,37,39",
+                        "endOffsets": "502,541,581,619,659"
+                    }
+                },
+                {
+                    "source": "E:\\AndroidWork\\Hangman\\app\\src\\main\\res\\values\\dimens.xml",
                     "from": {
                         "startLines": "3,4",
                         "startColumns": "4,4",
@@ -21,43 +38,7 @@
                     }
                 },
                 {
-                    "source": "D:\\AllTry\\Android workspace\\Hangman\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "4,3,5",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "101,56,154",
-                        "endColumns": "52,44,52",
-                        "endOffsets": "149,96,202"
-                    },
-                    "to": {
-                        "startLines": "29,30,31",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "778,831,876",
-                        "endColumns": "52,44,52",
-                        "endOffsets": "826,871,924"
-                    }
-                },
-                {
-                    "source": "D:\\AllTry\\Android workspace\\Hangman\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "6,15",
-                        "startColumns": "4,4",
-                        "startOffsets": "186,510",
-                        "endLines": "12,17",
-                        "endColumns": "12,12",
-                        "endOffsets": "472,665"
-                    },
-                    "to": {
-                        "startLines": "32,39",
-                        "startColumns": "4,4",
-                        "startOffsets": "929,1220",
-                        "endLines": "38,41",
-                        "endColumns": "12,12",
-                        "endOffsets": "1215,1375"
-                    }
-                },
-                {
-                    "source": "D:\\AllTry\\Android workspace\\Hangman\\app\\src\\main\\res\\values\\array.xml",
+                    "source": "E:\\AndroidWork\\Hangman\\app\\src\\main\\res\\values\\array.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "0",
@@ -76,20 +57,39 @@
                     }
                 },
                 {
-                    "source": "D:\\AllTry\\Android workspace\\Hangman\\app\\src\\main\\res\\values\\color.xml",
+                    "source": "E:\\AndroidWork\\Hangman\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "6,4,3,2,5",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "192,121,85,51,156",
-                        "endColumns": "35,34,35,33,35",
-                        "endOffsets": "227,155,120,84,191"
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "186,510",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "472,665"
                     },
                     "to": {
-                        "startLines": "22,23,24,25,26",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "467,507,546,586,624",
-                        "endColumns": "39,38,39,37,39",
-                        "endOffsets": "502,541,581,619,659"
+                        "startLines": "32,39",
+                        "startColumns": "4,4",
+                        "startOffsets": "929,1220",
+                        "endLines": "38,41",
+                        "endColumns": "12,12",
+                        "endOffsets": "1215,1375"
+                    }
+                },
+                {
+                    "source": "E:\\AndroidWork\\Hangman\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,3,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "101,56,154",
+                        "endColumns": "52,44,52",
+                        "endOffsets": "149,96,202"
+                    },
+                    "to": {
+                        "startLines": "29,30,31",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "778,831,876",
+                        "endColumns": "52,44,52",
+                        "endOffsets": "826,871,924"
                     }
                 }
             ]

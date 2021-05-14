@@ -2,25 +2,21 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="uva.verspeek.hangman"
     android:versionCode="1"
-    android:versionName="1.0">
+    android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="17"
-        android:targetSdkVersion="18" />
+        android:minSdkVersion="8"
+        android:targetSdkVersion="30" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme">
-        <meta-data
-            android:name="com.google.android.actions"
-            android:resource="@xml/shape" />
-
+        android:theme="@style/AppTheme" >
         <activity
-            android:name=".gameplay.MainActivity"
+            android:name="uva.verspeek.hangman.gameplay.MainActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,13 +24,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".highscore.HighScoreActivity"
+            android:name="uva.verspeek.hangman.highscore.HighScoreActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait"></activity>
-        <activity
-            android:name=".settings.SettingsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+                <activity
+            android:name="uva.verspeek.hangman.settings.SettingsActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" >
+        </activity>
     </application>
 
 </manifest>

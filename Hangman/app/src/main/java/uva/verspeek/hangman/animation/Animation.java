@@ -93,7 +93,6 @@ SurfaceHolder.Callback {
 		    Paint p = new Paint();
 		    // start at 0,0 and go to 0,max to use a vertical
 		    // gradient the full height of the screen.
-			//以下颜色均为背景颜色，为一种黄色到另一种黄色的线性渐变；
 		    p.setShader(new LinearGradient(0, 0, 0, getHeight(), Color.rgb(255,245,131), Color.rgb(255,240,58), Shader.TileMode.MIRROR));
 		    canvas.drawPaint(p);
 			//canvas.drawColor(Color.rgb(255,238,114));

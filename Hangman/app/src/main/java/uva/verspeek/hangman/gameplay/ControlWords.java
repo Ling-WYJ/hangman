@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class ControlWords {
-    //将words.xmf文件中的单词读入words中
+
 	public ArrayList<String> populateWords(InputStream stream){
 		ArrayList<String> words;
 		words = new ArrayList<String>();

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="words">
+	<item>A</item>
+	<item>AA</item>
+	<item>AAL</item>
+	<item>AALII</item>
+	<item>AAM</item>
+	<item>AANI</item>
+	<item>AARDVARK</item>
+	<item>AARDWOLF</item>
+	<item>AARON</item>
+	<item>AARONIC</item>
+	<item>AARONICAL</item>
+	<item>AARONITE</item>
+	<item>AARONITIC</item>
+	<item>AARU</item>
+	<item>LARENS</item>
+	<item>AB</item>
+	<item>ABA</item>
+	<item>ABABDEH</item>
+</string-array>
+    <color name="black">#000000</color>
+    <color name="blue">#0000ff</color>
+    <color name="green">#00ff00</color>
+    <color name="red">#ff0000</color>
+    <color name="white">#ffffff</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Hangman</string>
+    <string name="hello_world">Hello world!</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
