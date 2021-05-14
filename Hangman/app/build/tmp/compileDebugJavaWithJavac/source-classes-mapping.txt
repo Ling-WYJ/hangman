@@ -2,9 +2,6 @@ uva/verspeek/hangman/highscore/Score.java
  uva.verspeek.hangman.highscore.Score
 uva/verspeek/hangman/gameplay/CustomAdapter.java
  uva.verspeek.hangman.gameplay.CustomAdapter
-uva/verspeek/hangman/gameplay/ButtonM.java
- uva.verspeek.hangman.gameplay.ButtonM
- uva.verspeek.hangman.gameplay.ButtonM$1
 uva/verspeek/hangman/highscore/ControlScore.java
  uva.verspeek.hangman.highscore.ControlScore
 uva/verspeek/hangman/animation/HangmanAnimated.java

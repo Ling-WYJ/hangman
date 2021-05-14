@@ -1,4 +1,4 @@
-#Fri May 14 17:28:29 CST 2021
-base.0=E\:\\AndroidWork\\Hangman\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Fri May 14 19:00:42 CST 2021
+base.0=C\:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

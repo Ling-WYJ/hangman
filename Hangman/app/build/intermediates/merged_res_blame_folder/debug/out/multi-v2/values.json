@@ -1,63 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\AndroidWork\\Hangman\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "E:\\AndroidWork\\Hangman\\app\\src\\main\\res\\values\\color.xml",
+                    "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "6,4,3,2,5",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "192,121,85,51,156",
-                        "endColumns": "35,34,35,33,35",
-                        "endOffsets": "227,155,120,84,191"
+                        "startLines": "4,3,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "101,56,154",
+                        "endColumns": "52,44,52",
+                        "endOffsets": "149,96,202"
                     },
                     "to": {
-                        "startLines": "22,23,24,25,26",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "467,507,546,586,624",
-                        "endColumns": "39,38,39,37,39",
-                        "endOffsets": "502,541,581,619,659"
+                        "startLines": "29,30,31",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "778,831,876",
+                        "endColumns": "52,44,52",
+                        "endOffsets": "826,871,924"
                     }
                 },
                 {
-                    "source": "E:\\AndroidWork\\Hangman\\app\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "3,4",
-                        "startColumns": "4,4",
-                        "startOffsets": "89,147",
-                        "endColumns": "57,55",
-                        "endOffsets": "142,198"
-                    },
-                    "to": {
-                        "startLines": "27,28",
-                        "startColumns": "4,4",
-                        "startOffsets": "664,722",
-                        "endColumns": "57,55",
-                        "endOffsets": "717,773"
-                    }
-                },
-                {
-                    "source": "E:\\AndroidWork\\Hangman\\app\\src\\main\\res\\values\\array.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "0",
-                        "startOffsets": "51",
-                        "endLines": "21",
-                        "endColumns": "15",
-                        "endOffsets": "458"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "21",
-                        "endColumns": "15",
-                        "endOffsets": "462"
-                    }
-                },
-                {
-                    "source": "E:\\AndroidWork\\Hangman\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "6,15",
                         "startColumns": "4,4",
@@ -76,20 +40,56 @@
                     }
                 },
                 {
-                    "source": "E:\\AndroidWork\\Hangman\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\values\\array.xml",
                     "from": {
-                        "startLines": "4,3,5",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "101,56,154",
-                        "endColumns": "52,44,52",
-                        "endOffsets": "149,96,202"
+                        "startLines": "2",
+                        "startColumns": "0",
+                        "startOffsets": "51",
+                        "endLines": "21",
+                        "endColumns": "15",
+                        "endOffsets": "458"
                     },
                     "to": {
-                        "startLines": "29,30,31",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "778,831,876",
-                        "endColumns": "52,44,52",
-                        "endOffsets": "826,871,924"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "21",
+                        "endColumns": "15",
+                        "endOffsets": "462"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "89,147",
+                        "endColumns": "57,55",
+                        "endOffsets": "142,198"
+                    },
+                    "to": {
+                        "startLines": "27,28",
+                        "startColumns": "4,4",
+                        "startOffsets": "664,722",
+                        "endColumns": "57,55",
+                        "endOffsets": "717,773"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\values\\color.xml",
+                    "from": {
+                        "startLines": "6,4,3,2,5",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "192,121,85,51,156",
+                        "endColumns": "35,34,35,33,35",
+                        "endOffsets": "227,155,120,84,191"
+                    },
+                    "to": {
+                        "startLines": "22,23,24,25,26",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "467,507,546,586,624",
+                        "endColumns": "39,38,39,37,39",
+                        "endOffsets": "502,541,581,619,659"
                     }
                 }
             ]

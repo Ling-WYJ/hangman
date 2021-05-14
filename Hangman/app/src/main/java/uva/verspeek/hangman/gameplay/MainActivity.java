@@ -159,13 +159,15 @@ public class MainActivity extends Activity implements OnClickListener {
 			cb.setPadding(0, 0, 0, 0);
 			cb.setId(buttonChar);
 
-			cb.setTextColor(Color.parseColor("white"));
+			cb.setTextColor(Color.parseColor("black"));
 			cb.setTextSize(25);
 
 			cb.setOnClickListener(this);
-			cb.setBackgroundColor(Color.parseColor("red"));
+			//cb.setBackgroundColor(Color.parseColor("red"));
+			cb.setBackgroundResource(R.drawable.shape);
 			if (guessedLetters.contains("" + buttonChar)) {
-				cb.setBackgroundColor(Color.parseColor("#858585"));
+				//cb.setBackgroundColor(Color.parseColor("#858585"));
+				cb.setBackgroundResource(R.drawable.gussed);
 				cb.setOnClickListener(null);
 			}
 			mButtons.add(cb);
@@ -177,7 +179,7 @@ public class MainActivity extends Activity implements OnClickListener {
 	@Override
 	public void onClick(View v) {
 		Button selection = (Button) v;
-		selection.setBackgroundColor(Color.parseColor("#858585"));
+		selection.setBackgroundResource(R.drawable.gussed);
 		selection.setOnClickListener(null);
 
 		this.soundPool.play(this.soundMap.get(1), 1, 1, 0, 0, 1);
