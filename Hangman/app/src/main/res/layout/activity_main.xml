@@ -8,21 +8,22 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="uva.verspeek.hangman.gameplay.MainActivity" >
+    tools:context=".MainActivity" >
 
-<GridView
-    android:id="@+id/grid"
-    android:layout_width="wrap_content"
-    android:layout_height="160dp"
-    android:layout_alignParentBottom="true"
-    android:layout_alignParentLeft="true"
-    android:layout_alignParentRight="true"
-    android:numColumns="9"
-    android:verticalSpacing="4dp"
-    android:horizontalSpacing="4dp"
-    tools:listitem="@android:layout/simple_list_item_1" >
+    <GridView
+        android:id="@+id/grid"
+        android:layout_width="395dp"
+        android:layout_height="160dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="0dp"
+        android:horizontalSpacing="4dp"
+        android:numColumns="9"
+        android:verticalSpacing="4dp"
+        tools:listitem="@android:layout/simple_list_item_1">
 
-</GridView>
+    </GridView>
 
 <TextView
     android:id="@+id/word"
@@ -43,16 +44,15 @@
      android:layout_centerHorizontal="true"
      class="uva.verspeek.hangman.animation.Animation" />
 
-    <TextView
-        android:id="@+id/moves"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/grid"
-        android:layout_marginBottom="29dp"
-        android:text="@string/hello_world"
-        android:textSize="16sp" />
-
-    <ImageView
+   <TextView
+       android:id="@+id/moves"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_above="@+id/grid"
+       android:layout_centerHorizontal="true"
+       android:text="@string/hello_world"
+       android:textSize="16sp" />
+ <ImageView
        android:id="@+id/imageView1"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"

@@ -1,16 +1,6 @@
 ECLIPSE ANDROID PROJECT IMPORT SUMMARY
 ======================================
 
-Risky Project Location:
------------------------
-The tools *should* handle project locations in any directory. However,
-due to bugs, placing projects in directories containing spaces in the
-path, or characters like ", ' and &, have had issues. We're working to
-eliminate these bugs, but to save yourself headaches you may want to
-move your project to a location where this is not a problem.
-D:\AllTry\Android workspace\Hangman
-                 -                 
-
 Ignored Files:
 --------------
 The following files were *not* copied into the new Gradle project; you
@@ -19,11 +9,6 @@ so manually move them:
 
 * .idea\
 * .idea\.gitignore
-* .idea\libraries\
-* .idea\libraries\android_support_v4.xml
-* .idea\libraries\android_support_v42.xml
-* .idea\libraries\dexedLibs.xml
-* .idea\libraries\dexedLibs2.xml
 * .idea\misc.xml
 * .idea\modules.xml
 * .idea\workspace.xml

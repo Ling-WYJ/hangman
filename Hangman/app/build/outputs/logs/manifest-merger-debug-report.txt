@@ -1,87 +1,81 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:2:1-40:12
+ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:2:1-38:12
 	package
-		ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:3:5-35
-		INJECTED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml
-		INJECTED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml
-		INJECTED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml
-		INJECTED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml
 uses-sdk
-ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:7:5-9:41
-INJECTED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:7:5-9:41
-INJECTED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:7:5-9:41
-INJECTED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:7:5-9:41
-INJECTED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:7:5-9:41
+ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
-		ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml
-		INJECTED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:8:9-35
-		INJECTED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml
-		INJECTED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:8:9-34
+		INJECTED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml
 application
-ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:11:5-38:19
+ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:11:5-36:19
 	android:label
-		ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:14:9-41
 	android:icon
-		ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:13:9-45
+		ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:13:9-45
 	android:allowBackup
-		ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:15:9-40
-meta-data#com.google.android.actions
-ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:16:9-18:45
-	android:resource
-		ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:18:13-42
-	android:name
-		ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:17:13-54
+		ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:15:9-40
 activity#uva.verspeek.hangman.gameplay.MainActivity
-ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:20:9-29:20
+ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:16:9-25:20
 	android:screenOrientation
-		ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:23:13-49
+		ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:19:13-49
 	android:label
-		ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:22:13-45
+		ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:18:13-45
 	android:name
-		ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:21:13-50
+		ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:17:13-70
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:24:13-28:29
+ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:25:17-69
+ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:25:25-66
+		ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:27:17-77
+ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:27:27-74
+		ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:23:27-74
 activity#uva.verspeek.hangman.highscore.HighScoreActivity
-ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:30:9-33:61
+ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:26:9-30:20
 	android:screenOrientation
-		ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:33:13-49
+		ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:29:13-49
 	android:label
-		ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:32:13-45
+		ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:28:13-45
 	android:name
-		ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:31:13-56
+		ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:27:13-76
 activity#uva.verspeek.hangman.settings.SettingsActivity
-ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:34:9-37:61
+ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:31:17-35:20
 	android:screenOrientation
-		ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:37:13-49
+		ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:34:13-49
 	android:label
-		ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:36:13-45
+		ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:33:13-45
 	android:name
-		ADDED from D:\AllTry\Android workspace\Hangman\app\src\main\AndroidManifest.xml:35:13-54
+		ADDED from E:\AndroidWork\Hangman\app\src\main\AndroidManifest.xml:32:13-74

@@ -1,39 +1,17 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\AllTry\\Android workspace\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat",
+            "outputFile": "E:\\AndroidWork\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\values-v14_values-v14.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\AllTry\\Android workspace\\Hangman\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+                    "source": "E:\\AndroidWork\\Hangman\\app\\src\\main\\res\\values-v14\\styles.xml",
                     "from": {
-                        "startLines": "6",
+                        "startLines": "7",
                         "startColumns": "4",
-                        "startOffsets": "200",
-                        "endColumns": "58",
-                        "endOffsets": "254"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "58",
-                        "endOffsets": "109"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "D:\\AllTry\\Android workspace\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\values-v11_values-v11.arsc.flat",
-            "map": [
-                {
-                    "source": "D:\\AllTry\\Android workspace\\Hangman\\app\\src\\main\\res\\values-v11\\styles.xml",
-                    "from": {
-                        "startLines": "6",
-                        "startColumns": "4",
-                        "startOffsets": "177",
-                        "endLines": "8",
+                        "startOffsets": "220",
+                        "endLines": "9",
                         "endColumns": "12",
-                        "endOffsets": "309"
+                        "endOffsets": "366"
                     },
                     "to": {
                         "startLines": "2",
@@ -41,16 +19,33 @@
                         "startOffsets": "55",
                         "endLines": "4",
                         "endColumns": "12",
-                        "endOffsets": "187"
+                        "endOffsets": "201"
                     }
                 }
             ]
         },
         {
-            "outputFile": "D:\\AllTry\\Android workspace\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "outputFile": "E:\\AndroidWork\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\AllTry\\Android workspace\\Hangman\\app\\src\\main\\res\\values\\dimens.xml",
+                    "source": "E:\\AndroidWork\\Hangman\\app\\src\\main\\res\\values\\color.xml",
+                    "from": {
+                        "startLines": "6,4,3,2,5",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "192,121,85,51,156",
+                        "endColumns": "35,34,35,33,35",
+                        "endOffsets": "227,155,120,84,191"
+                    },
+                    "to": {
+                        "startLines": "22,23,24,25,26",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "467,507,546,586,624",
+                        "endColumns": "39,38,39,37,39",
+                        "endOffsets": "502,541,581,619,659"
+                    }
+                },
+                {
+                    "source": "E:\\AndroidWork\\Hangman\\app\\src\\main\\res\\values\\dimens.xml",
                     "from": {
                         "startLines": "3,4",
                         "startColumns": "4,4",
@@ -67,43 +62,7 @@
                     }
                 },
                 {
-                    "source": "D:\\AllTry\\Android workspace\\Hangman\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "4,3,5",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "101,56,154",
-                        "endColumns": "52,44,52",
-                        "endOffsets": "149,96,202"
-                    },
-                    "to": {
-                        "startLines": "29,30,31",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "778,831,876",
-                        "endColumns": "52,44,52",
-                        "endOffsets": "826,871,924"
-                    }
-                },
-                {
-                    "source": "D:\\AllTry\\Android workspace\\Hangman\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "6,15",
-                        "startColumns": "4,4",
-                        "startOffsets": "186,510",
-                        "endLines": "12,17",
-                        "endColumns": "12,12",
-                        "endOffsets": "472,665"
-                    },
-                    "to": {
-                        "startLines": "32,39",
-                        "startColumns": "4,4",
-                        "startOffsets": "929,1220",
-                        "endLines": "38,41",
-                        "endColumns": "12,12",
-                        "endOffsets": "1215,1375"
-                    }
-                },
-                {
-                    "source": "D:\\AllTry\\Android workspace\\Hangman\\app\\src\\main\\res\\values\\array.xml",
+                    "source": "E:\\AndroidWork\\Hangman\\app\\src\\main\\res\\values\\array.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "0",
@@ -122,36 +81,77 @@
                     }
                 },
                 {
-                    "source": "D:\\AllTry\\Android workspace\\Hangman\\app\\src\\main\\res\\values\\color.xml",
+                    "source": "E:\\AndroidWork\\Hangman\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "6,4,3,2,5",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "192,121,85,51,156",
-                        "endColumns": "35,34,35,33,35",
-                        "endOffsets": "227,155,120,84,191"
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "186,510",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "472,665"
                     },
                     "to": {
-                        "startLines": "22,23,24,25,26",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "467,507,546,586,624",
-                        "endColumns": "39,38,39,37,39",
-                        "endOffsets": "502,541,581,619,659"
+                        "startLines": "32,39",
+                        "startColumns": "4,4",
+                        "startOffsets": "929,1220",
+                        "endLines": "38,41",
+                        "endColumns": "12,12",
+                        "endOffsets": "1215,1375"
+                    }
+                },
+                {
+                    "source": "E:\\AndroidWork\\Hangman\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,3,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "101,56,154",
+                        "endColumns": "52,44,52",
+                        "endOffsets": "149,96,202"
+                    },
+                    "to": {
+                        "startLines": "29,30,31",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "778,831,876",
+                        "endColumns": "52,44,52",
+                        "endOffsets": "826,871,924"
                     }
                 }
             ]
         },
         {
-            "outputFile": "D:\\AllTry\\Android workspace\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\values-v14_values-v14.arsc.flat",
+            "outputFile": "E:\\AndroidWork\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\AllTry\\Android workspace\\Hangman\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "source": "E:\\AndroidWork\\Hangman\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
                     "from": {
-                        "startLines": "7",
+                        "startLines": "6",
                         "startColumns": "4",
-                        "startOffsets": "220",
-                        "endLines": "9",
+                        "startOffsets": "200",
+                        "endColumns": "58",
+                        "endOffsets": "254"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\AndroidWork\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\values-v11_values-v11.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\AndroidWork\\Hangman\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "177",
+                        "endLines": "8",
                         "endColumns": "12",
-                        "endOffsets": "366"
+                        "endOffsets": "309"
                     },
                     "to": {
                         "startLines": "2",
@@ -159,7 +159,7 @@
                         "startOffsets": "55",
                         "endLines": "4",
                         "endColumns": "12",
-                        "endOffsets": "201"
+                        "endOffsets": "187"
                     }
                 }
             ]

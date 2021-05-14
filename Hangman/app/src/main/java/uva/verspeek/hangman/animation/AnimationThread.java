@@ -9,10 +9,8 @@ import android.view.SurfaceHolder;
 
 
 /**
- * @author impaler
- *
- * The Main thread which contains the animation loop. The thread must have access to 
- * the surface view and holder to trigger events every animation tick.
+ 包含动画循环的主线程。
+ 线程必须有访问表面视图和holder的权限，以便在每个动画滴答时触发事件。
  */
 public class AnimationThread extends Thread {
 	// desired fps

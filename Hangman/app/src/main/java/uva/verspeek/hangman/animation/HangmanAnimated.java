@@ -114,7 +114,6 @@ public class HangmanAnimated {
 		// where to draw the sprite
 		Rect destRect = new Rect(x, y, x + spriteWidth, y + spriteHeight);
 		canvas.drawBitmap(bitmap, sourceRect, destRect, null);
-		//在原图上截取内容sourceRect绘制在destRect中
 	}
 
 }

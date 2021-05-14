@@ -34,11 +34,11 @@ public class GamePlay {
 
 		GridView keyboard = (GridView) context.findViewById(R.id.grid);
 		keyboard.setOnItemClickListener(null);
+		context.soundPool.play(context.soundMap.get(4), 1, 1, 0, 0, 1);
 
 		AlertDialog.Builder alert = new AlertDialog.Builder(context);
 
 		alert.setTitle("You Win");
-		//改
 		alert.setMessage("You made "
 				+ getMistakes()
 				+ " mistakes.\nScore: "
@@ -52,7 +52,7 @@ public class GamePlay {
 				maxLength) });
 		alert.setView(name);
 		alert.setCancelable(false);
-		//高分信息键值对存储
+
 		alert.setPositiveButton("Submit",
 				new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog, int whichButton) {
@@ -74,13 +74,11 @@ public class GamePlay {
 	public void lose() {
 		RelativeLayout layout = (RelativeLayout) context
 				.findViewById(R.id.layout);
-		//禁用全部组件
 		for (int i = 0; i < layout.getChildCount(); i++) {
 
 			View child = layout.getChildAt(i);
 			child.setEnabled(false);
 		}
-		//禁用键盘
 		GridView keyboard = (GridView) context.findViewById(R.id.grid);
 		for (int i = 0; i < keyboard.getChildCount(); i++) {
 
@@ -88,10 +86,12 @@ public class GamePlay {
 			child.setEnabled(false);
 		}
 
+		context.soundPool.play(context.soundMap.get(3), 1, 1, 0, 0, 1);
+
 		Toast.makeText(context.getApplicationContext(),
 				"You lose! The word was " + context.randomWord,
 				Toast.LENGTH_LONG).show();
-		//改
+
 		Runnable r = new Runnable() {
 			@Override
 			public void run() {
@@ -101,8 +101,7 @@ public class GamePlay {
 
 		Handler h = new Handler();
 
-		// delay time in miliseconds. (before going to highscores, so you can
-		// see dead hangman animation)
+		// 延时时间(毫秒)。(在进入最高分之前，你可以看到死亡刽子手的动画)
 		h.postDelayed(r, 3500);
 
 	}
@@ -145,6 +144,15 @@ public class GamePlay {
 	public void newGuess(String letter) {
 		context.guessedLetters.add(letter);
 		context.moves = getMistakes();
+		String displayWord = context.randomWord;
+		if (!displayWord.contains(letter)) {
+			context.soundPool.play(context.soundMap.get(5), 1, 1, 0, 0, 1);
+			Log.d("Input",":false");
+		}
+		else {
+			context.soundPool.play(context.soundMap.get(2), 1, 1, 0, 0, 1);
+			Log.d("Input",":true");
+		}
 		TextView movesLeft = (TextView) context.findViewById(R.id.moves);
 		movesLeft.setText("Moves left: " + (context.maxMoves - context.moves));
 		showLetters();
@@ -154,20 +162,16 @@ public class GamePlay {
 		String displayWord = context.randomWord;
 		String noDuplicates = removeDuplicateChars(context.randomWord);
 		boolean win = true;
-		//遍历去重后的每一个字母，看输入的字符串中是否包含，若没有，判断为输
+		int flag = 0;
 		for (int i = 0; i < noDuplicates.length(); i++) {
 			Log.d("letter", "" + noDuplicates.charAt(i));
 			if (!context.guessedLetters.contains("" + noDuplicates.charAt(i))) {
 				displayWord = displayWord.replace("" + noDuplicates.charAt(i),
 						"_ ");
 				win = false;
-				Log.d("win", ""+win );
 			} else {
 				displayWord = displayWord.replace("" + noDuplicates.charAt(i),
 						"" + noDuplicates.charAt(i) + " ");
-
-				Log.d("win", ""+win);
-
 			}
 		}
 		TextView t = (TextView) context.findViewById(R.id.word);
@@ -181,7 +185,7 @@ public class GamePlay {
 						+ (((float) (numberHangmans) / (context.maxMoves + 1.0)) * (context.moves)));
 		numberHangmans--;
 
-		// make sure the last animation is always displayed on the last move
+		// 确保最后的动画总是在最后一次移动时显示
 		if (frame == numberHangmans && context.moves != context.maxMoves)
 			frame = numberHangmans - 1;
 		if (frame > numberHangmans)
