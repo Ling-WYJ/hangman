@@ -4,11 +4,17 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
+import java.util.HashMap;
 import uva.verspeek.hangman.R;
 import uva.verspeek.hangman.animation.Animation;
 import uva.verspeek.hangman.highscore.ControlScore;
 import uva.verspeek.hangman.settings.SettingsActivity;
+
+import android.content.Context;
+import android.graphics.drawable.GradientDrawable;
+import android.graphics.drawable.shapes.Shape;
+import android.media.AudioManager;
+import android.media.SoundPool;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -42,6 +48,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends Activity implements OnClickListener {
+	
+	public SoundPool soundPool = new SoundPool(10, AudioManager.STREAM_SYSTEM, 5);
+	public HashMap<Integer, Integer> soundMap = new HashMap<Integer, Integer>();
+	
 	public ArrayList<String> words;
 	List<String> guessedLetters;
 	String randomWord;
@@ -67,7 +77,13 @@ public class MainActivity extends Activity implements OnClickListener {
 				WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
 		setContentView(R.layout.activity_main);
-
+		
+		soundMap.put(1, soundPool.load(this, R.raw.click, 1));
+		soundMap.put(2, soundPool.load(this, R.raw.correct, 1));
+		soundMap.put(3, soundPool.load(this, R.raw.lose, 1));
+		soundMap.put(4, soundPool.load(this, R.raw.win, 1));
+		soundMap.put(5, soundPool.load(this, R.raw.wrong, 1));
+		
 		ImageButton settingsButton = (ImageButton) findViewById(R.id.settings);
 
 		settingsButton.setOnClickListener(new OnClickListener() {
@@ -163,13 +179,13 @@ public class MainActivity extends Activity implements OnClickListener {
 			cb.setText("" + buttonChar);
 			cb.setPadding(0, 0, 0, 0);
 			cb.setId(buttonChar);
-
-			cb.setTextColor(Color.parseColor("white"));
+			cb.setBackgroundResource(R.drawable.shape);
+			cb.setTextColor(Color.parseColor("black"));
 			cb.setTextSize(25);
 			cb.setOnClickListener(this);
-			cb.setBackgroundColor(Color.parseColor("red"));
+			
 			if (guessedLetters.contains("" + buttonChar)) {
-				cb.setBackgroundColor(Color.parseColor("#858585"));
+				cb.setBackgroundResource(R.drawable.shape);
 				cb.setOnClickListener(null);
 			}
 			mButtons.add(cb);
@@ -181,8 +197,9 @@ public class MainActivity extends Activity implements OnClickListener {
 	@Override
 	public void onClick(View v) {
 		Button selection = (Button) v;
-		selection.setBackgroundColor(Color.parseColor("#858585"));
+		selection.setBackgroundResource(R.drawable.gussed);
 		selection.setOnClickListener(null);
+		this.soundPool.play(this.soundMap.get(1), 1, 1, 0, 0, 1);
 		gameplay.newGuess((String) selection.getText());
 	}
 
