@@ -34,7 +34,7 @@ public class GamePlay {
 
 		GridView keyboard = (GridView) context.findViewById(R.id.grid);
 		keyboard.setOnItemClickListener(null);
-
+		context.soundPool.play(context.soundMap.get(4), 1, 1, 0, 0, 1);
 		AlertDialog.Builder alert = new AlertDialog.Builder(context);
 
 		alert.setTitle("You Win");
@@ -84,7 +84,7 @@ public class GamePlay {
 			View child = keyboard.getChildAt(i);
 			child.setEnabled(false);
 		}
-
+		context.soundPool.play(context.soundMap.get(3), 1, 1, 0, 0, 1);
 		Toast.makeText(context.getApplicationContext(),
 				"You lose! The word was " + context.randomWord,
 				Toast.LENGTH_LONG).show();
@@ -142,6 +142,15 @@ public class GamePlay {
 	public void newGuess(String letter) {
 		context.guessedLetters.add(letter);
 		context.moves = getMistakes();
+		String displayWord = context.randomWord;
+		if (!displayWord.contains(letter)) {
+			context.soundPool.play(context.soundMap.get(5), 1, 1, 0, 0, 1);
+			Log.d("Input",":false");
+		}
+		else {
+			context.soundPool.play(context.soundMap.get(2), 1, 1, 0, 0, 1);
+			Log.d("Input",":true");
+		}
 		TextView movesLeft = (TextView) context.findViewById(R.id.moves);
 		movesLeft.setText("Moves left: " + (context.maxMoves - context.moves));
 		showLetters();
@@ -151,6 +160,7 @@ public class GamePlay {
 		String displayWord = context.randomWord;
 		String noDuplicates = removeDuplicateChars(context.randomWord);
 		boolean win = true;
+		int flag = 0;
 		for (int i = 0; i < noDuplicates.length(); i++) {
 			Log.d("letter", "" + noDuplicates.charAt(i));
 			if (!context.guessedLetters.contains("" + noDuplicates.charAt(i))) {
