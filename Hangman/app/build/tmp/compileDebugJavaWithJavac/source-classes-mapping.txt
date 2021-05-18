@@ -32,6 +32,7 @@ uva/verspeek/hangman/gameplay/GamePlay.java
 uva/verspeek/hangman/highscore/HighScoreActivity.java
  uva.verspeek.hangman.highscore.HighScoreActivity
  uva.verspeek.hangman.highscore.HighScoreActivity$1
+ uva.verspeek.hangman.highscore.HighScoreActivity$2
 uva/verspeek/hangman/start/StartActivity.java
  uva.verspeek.hangman.start.StartActivity
  uva.verspeek.hangman.start.StartActivity$1

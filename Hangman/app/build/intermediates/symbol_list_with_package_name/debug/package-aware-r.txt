@@ -633,6 +633,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable gussed
 drawable hangman
 drawable hangmania
 drawable hangmanid0
@@ -658,6 +659,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable shape
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -701,6 +703,7 @@ id beginning
 id blocking
 id bottom
 id button2
+id buttonBack
 id buttonNewGame
 id buttonPanel
 id buttonResume
@@ -888,6 +891,11 @@ layout settings_seekbar
 layout support_simple_spinner_dropdown_item
 layout test
 menu main
+raw click
+raw correct
+raw lose
+raw win
+raw wrong
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
