@@ -4,6 +4,13 @@ uva/verspeek/hangman/gameplay/CustomAdapter.java
  uva.verspeek.hangman.gameplay.CustomAdapter
 uva/verspeek/hangman/highscore/ControlScore.java
  uva.verspeek.hangman.highscore.ControlScore
+uva/verspeek/hangman/start/SwitchButton.java
+ per.stramchen.switchbuttondemo.SwitchButton
+ per.stramchen.switchbuttondemo.SwitchButton$1
+ per.stramchen.switchbuttondemo.SwitchButton$2
+ per.stramchen.switchbuttondemo.SwitchButton$3
+ per.stramchen.switchbuttondemo.SwitchButton$OnCheckedChangeListener
+ per.stramchen.switchbuttondemo.SwitchButton$ViewState
 uva/verspeek/hangman/animation/HangmanAnimated.java
  uva.verspeek.hangman.animation.HangmanAnimated
 uva/verspeek/hangman/settings/SettingsActivity.java
@@ -36,3 +43,4 @@ uva/verspeek/hangman/start/StartActivity.java
  uva.verspeek.hangman.start.StartActivity
  uva.verspeek.hangman.start.StartActivity$1
  uva.verspeek.hangman.start.StartActivity$2
+ uva.verspeek.hangman.start.StartActivity$3

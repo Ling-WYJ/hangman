@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:gravity="right"
@@ -7,6 +9,44 @@
     android:background="@layout/gradient">
 
     <!-- Show Preference in ListView  -->
+
+    <LinearLayout
+        android:id="@+id/lay_voice_switch2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/shape_switch_bg"
+        android:orientation="horizontal"
+        android:paddingBottom="7dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="7dp"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="30"
+            android:gravity="right"
+            android:text="夜间模式 "
+            android:textColor="@color/black" />
+
+        <per.stramchen.switchbuttondemo.SwitchButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:sb_checkline_width="2dp"
+            app:sb_checkline_color="@color/colorPrimary"
+            app:sb_background="#E8E9EB"
+            app:sb_checked_color="#65C065"
+            app:sb_show_indicator="true" />
+    </LinearLayout>
 
     <ListView
         android:id="@+id/android:list"
@@ -18,6 +58,7 @@
     </ListView>
 
     <!-- Footer -->
+
 
     <Spinner
         android:id="@+id/spinner"

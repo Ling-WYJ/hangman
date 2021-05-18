@@ -260,6 +260,24 @@ attr radioButtonStyle
 attr ratingBarStyle
 attr ratingBarStyleIndicator
 attr ratingBarStyleSmall
+attr sb_background
+attr sb_border_width
+attr sb_button_color
+attr sb_checked
+attr sb_checked_color
+attr sb_checkline_color
+attr sb_checkline_width
+attr sb_effect_duration
+attr sb_enable_effect
+attr sb_shadow_color
+attr sb_shadow_effect
+attr sb_shadow_offset
+attr sb_shadow_radius
+attr sb_show_indicator
+attr sb_uncheck_color
+attr sb_uncheckcircle_color
+attr sb_uncheckcircle_radius
+attr sb_uncheckcircle_width
 attr searchHintIcon
 attr searchIcon
 attr searchViewStyle
@@ -384,6 +402,9 @@ color bright_foreground_material_dark
 color bright_foreground_material_light
 color button_material_dark
 color button_material_light
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
 color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
@@ -633,6 +654,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable gussed
 drawable hangman
 drawable hangmania
 drawable hangmanid0
@@ -645,6 +667,8 @@ drawable hangmanid6
 drawable hangmanid7
 drawable hangmanid8
 drawable ic_launcher
+drawable ic_launcher_background
+drawable ic_launcher_foreground
 drawable light
 drawable notification_action_background
 drawable notification_bg
@@ -658,6 +682,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable shape
+drawable shape_switch_bg
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -715,6 +741,7 @@ id clip_vertical
 id collapseActionView
 id content
 id contentPanel
+id continue_dialog_activity
 id custom
 id customPanel
 id decor_content_parent
@@ -748,6 +775,7 @@ id invisible
 id italic
 id kidsButton
 id kidsText
+id lay_voice_switch2
 id layout
 id left
 id line1
@@ -888,6 +916,11 @@ layout settings_seekbar
 layout support_simple_spinner_dropdown_item
 layout test
 menu main
+raw click
+raw correct
+raw lose
+raw win
+raw wrong
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -929,6 +962,7 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string action_settings
 string app_name
+string continue_dialogactivity
 string hello_world
 string search_menu_title
 string start_dialogactivity
@@ -1324,6 +1358,7 @@ styleable SearchView android_focusable android_maxWidth android_inputType androi
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
+styleable SwitchButton sb_background sb_border_width sb_button_color sb_checked sb_checked_color sb_checkline_color sb_checkline_width sb_effect_duration sb_enable_effect sb_shadow_color sb_shadow_effect sb_shadow_offset sb_shadow_radius sb_show_indicator sb_uncheck_color sb_uncheckcircle_color sb_uncheckcircle_radius sb_uncheckcircle_width
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable TextAppearance android_textSize android_typeface android_textStyle android_textColor android_textColorHint android_textColorLink android_shadowColor android_shadowDx android_shadowDy android_shadowRadius android_fontFamily fontFamily textAllCaps
 styleable Toolbar android_gravity android_minHeight buttonGravity collapseContentDescription collapseIcon contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation logo logoDescription maxButtonHeight navigationContentDescription navigationIcon popupTheme subtitle subtitleTextAppearance subtitleTextColor title titleMargin titleMarginBottom titleMarginEnd titleMarginStart titleMarginTop titleMargins titleTextAppearance titleTextColor
