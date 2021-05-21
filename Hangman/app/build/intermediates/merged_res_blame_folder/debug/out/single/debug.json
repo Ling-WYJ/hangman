@@ -1,131 +1,130 @@
 [
     {
-
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_hangmanid7.png.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\hangmanid7.png"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_hangmanid3.png.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\hangmanid3.png"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_foreground.xml.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_gussed.xml.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\gussed.xml"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_hangmanid5.png.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\hangmanid5.png"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\raw_click.mp3.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\raw\\click.mp3"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\layout_settings_seekbar.xml.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\layout\\settings_seekbar.xml"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\raw_correct.mp3.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\raw\\correct.mp3"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_hangmanid0.png.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\hangmanid0.png"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_hangmanid1.png.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\hangmanid1.png"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_shape.xml.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\shape.xml"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_hangmania.png.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\hangmania.png"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_highscore.xml.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\layout\\activity_highscore.xml"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\layout\\activity_settings.xml"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_gussed.xml.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\gussed.xml"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_shape.xml.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\shape.xml"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\layout_test.xml.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\layout\\test.xml"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\layout_gradient.xml.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\layout\\gradient.xml"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\raw_click.mp3.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\raw\\click.mp3"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_hangmanid7.png.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\hangmanid7.png"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_shape_switch_bg.xml.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\shape_switch_bg.xml"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_hangmanid3.png.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\hangmanid3.png"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_hangmanid8.png.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\hangmanid8.png"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_hangmania.png.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\hangmania.png"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\raw_wrong.mp3.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\raw\\wrong.mp3"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_hangmanid1.png.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\hangmanid1.png"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_hangmanid0.png.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\hangmanid0.png"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\layout\\activity_settings.xml"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_shape_switch_bg.xml.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\shape_switch_bg.xml"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_hangmanid8.png.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\hangmanid8.png"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_hangman.png.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\hangman.png"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_start.xml.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\layout\\activity_start.xml"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_hangmanid5.png.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\hangmanid5.png"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_hangmanid6.png.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\hangmanid6.png"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_light.jpg.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\drawable-hdpi\\light.jpg"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\xml_settings.xml.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\xml\\settings.xml"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\raw_lose.mp3.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\raw\\lose.mp3"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\layout_settings_seekbar.xml.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\layout\\settings_seekbar.xml"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.xml.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\layout_test.xml.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\layout\\test.xml"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_hangmanid4.png.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\hangmanid4.png"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\layout_gradient.xml.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\layout\\gradient.xml"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_hangmanid2.png.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\hangmanid2.png"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\raw_correct.mp3.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\raw\\correct.mp3"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\raw_win.mp3.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\raw\\win.mp3"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_start.xml.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\layout\\activity_start.xml"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\raw_lose.mp3.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\raw\\lose.mp3"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher_background.xml"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\raw_wrong.mp3.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\raw\\wrong.mp3"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_highscore.xml.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\layout\\activity_highscore.xml"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_hangman.png.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\hangman.png"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_hangmanid6.png.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\hangmanid6.png"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_light.jpg.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\drawable-hdpi\\light.jpg"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\raw_win.mp3.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\raw\\win.mp3"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_hangmanid4.png.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\hangmanid4.png"
     },
     {
-        "merged": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_hangmanid2.png.flat",
-        "source": "D:\\AllTry\\Android workspace\\try\\hangman-main\\Hangman\\app\\src\\main\\res\\drawable-mdpi\\hangmanid2.png"
+        "merged": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\res\\merged\\debug\\xml_settings.xml.flat",
+        "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\xml\\settings.xml"
     }
 ]
