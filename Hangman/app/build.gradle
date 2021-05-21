@@ -7,7 +7,7 @@ android {
     defaultConfig {
         applicationId "uva.verspeek.hangman"
         minSdkVersion 29
-        targetSdkVersion 30
+        targetSdkVersion 29
     }
 
     buildTypes {
