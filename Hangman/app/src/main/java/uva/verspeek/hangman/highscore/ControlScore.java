@@ -9,6 +9,7 @@ import java.util.HashSet;
 import java.util.List;
 
 import uva.verspeek.hangman.gameplay.MainActivity;
+import uva.verspeek.hangman.start.StartActivity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -67,6 +68,13 @@ public class ControlScore {
 	public void startHighscore(Activity activity){
 		Intent highIntent = new Intent(activity,
 				HighScoreActivity.class);
+		activity.startActivity(highIntent);
+		activity.finish();
+	}
+
+	public void startInitscore(Activity activity){
+		Intent highIntent = new Intent(activity,
+				StartActivity.class);
 		activity.startActivity(highIntent);
 		activity.finish();
 	}

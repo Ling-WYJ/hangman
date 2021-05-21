@@ -45,11 +45,23 @@
     </ScrollView>
 
     <Button
-        android:id="@+id/buttonNewGame"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:id="@+id/buttonBack"
+        android:layout_width="86dp"
+        android:layout_height="46dp"
         android:layout_alignParentRight="true"
-        android:text="New Game" />
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="433dp"
+        android:layout_marginBottom="0dp"
+        android:text="返回" />
+
+    <Button
+        android:id="@+id/buttonNewGame"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="新游戏" />
 
 </RelativeLayout>

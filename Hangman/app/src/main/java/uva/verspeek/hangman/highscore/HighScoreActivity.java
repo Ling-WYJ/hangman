@@ -4,6 +4,8 @@ import uva.verspeek.hangman.R;
 import uva.verspeek.hangman.R.id;
 import uva.verspeek.hangman.R.layout;
 import uva.verspeek.hangman.gameplay.MainActivity;
+import uva.verspeek.hangman.start.StartActivity;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -50,6 +52,18 @@ public class HighScoreActivity extends Activity {
 				Intent gameIntent = new Intent(HighScoreActivity.this,
 						MainActivity.class);
 				gameIntent.putExtra("newgame", "newgame");
+				HighScoreActivity.this.startActivity(gameIntent);
+				HighScoreActivity.this.finish();
+			}
+
+		});
+
+		Button buttonBack = (Button) findViewById(R.id.buttonBack);
+		buttonBack.setOnClickListener(new OnClickListener() {
+
+			public void onClick(View v) {
+				Intent gameIntent = new Intent(HighScoreActivity.this,
+						StartActivity.class);
 				HighScoreActivity.this.startActivity(gameIntent);
 				HighScoreActivity.this.finish();
 			}

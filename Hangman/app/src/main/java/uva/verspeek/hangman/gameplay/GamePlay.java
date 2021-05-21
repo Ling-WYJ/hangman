@@ -37,12 +37,12 @@ public class GamePlay {
 		context.soundPool.play(context.soundMap.get(4), 1, 1, 0, 0, 1);
 		AlertDialog.Builder alert = new AlertDialog.Builder(context);
 
-		alert.setTitle("You Win");
-		alert.setMessage("You made "
+		alert.setTitle("您成功解救了李华！！");
+		alert.setMessage("您做出了 "
 				+ getMistakes()
-				+ " mistakes.\nScore: "
+				+ "次错误的选择\n恭喜您成功进入解救李华高分榜！\n您最终得分: "
 				+ context.cls.getScore(context.randomWord, context.maxMoves,
-						getMistakes()) + "\nPlease enter your name");
+						getMistakes()) + "\n请好汉留下名字：");
 
 		// Set an EditText view to get user input
 		final EditText name = new EditText(context);
@@ -52,12 +52,12 @@ public class GamePlay {
 		alert.setView(name);
 		alert.setCancelable(false);
 
-		alert.setPositiveButton("Submit",
+		alert.setPositiveButton("提交",
 				new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog, int whichButton) {
 						String user = "" + name.getText();
 						if (user == "")
-							user = "Anonymous";
+							user = "匿名好汉";
 						context.cls.setHighScore(user, context.cls.getScore(
 								context.randomWord, context.maxMoves,
 								getMistakes()), context.randomWord,
@@ -86,13 +86,13 @@ public class GamePlay {
 		}
 		context.soundPool.play(context.soundMap.get(3), 1, 1, 0, 0, 1);
 		Toast.makeText(context.getApplicationContext(),
-				"You lose! The word was " + context.randomWord,
+				"很遗憾！您没能救出李华。\n该单词为 " + context.randomWord,
 				Toast.LENGTH_LONG).show();
 
 		Runnable r = new Runnable() {
 			@Override
 			public void run() {
-				context.cls.startHighscore(context);
+				context.cls.startInitscore(context);
 			}
 		};
 
