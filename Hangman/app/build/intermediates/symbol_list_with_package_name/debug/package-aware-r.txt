@@ -388,6 +388,7 @@ color abc_tint_spinner
 color abc_tint_switch_track
 color accent_material_dark
 color accent_material_light
+color background
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -845,6 +846,7 @@ id start_dialog_activity
 id start_normal_activity
 id submenuarrow
 id submit_area
+id switchButton
 id tabMode
 id tag_transition_group
 id tag_unhandled_key_event_manager
@@ -853,6 +855,7 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView
 id time
 id title
 id titleDividerNoCustom
@@ -963,6 +966,7 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string action_settings
 string app_name
+string context
 string continue_dialogactivity
 string hello_world
 string search_menu_title

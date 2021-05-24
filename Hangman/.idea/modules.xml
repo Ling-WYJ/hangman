@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Hangman.iml" filepath="$PROJECT_DIR$/.idea/modules/Hangman.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Hangman.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Hangman.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Hangman_(2).iml" filepath="$PROJECT_DIR$/.idea/modules/Hangman_(2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Hangman_(2).app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Hangman_(2).app.iml" />
     </modules>
   </component>
 </project>

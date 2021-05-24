@@ -29,6 +29,8 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.Rect;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.AppCompatDelegate;
 import android.text.InputFilter;
 import android.util.Log;
 import android.view.Menu;
@@ -46,8 +48,9 @@ import android.widget.ImageButton;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.support.v7.app.AppCompatDelegate;
 
-public class MainActivity extends Activity implements OnClickListener {
+public class MainActivity extends AppCompatActivity implements OnClickListener {
 	
 	public SoundPool soundPool = new SoundPool(10, AudioManager.STREAM_SYSTEM, 5);
 	public HashMap<Integer, Integer> soundMap = new HashMap<Integer, Integer>();
@@ -67,17 +70,22 @@ public class MainActivity extends Activity implements OnClickListener {
 	public SharedPreferences gamePrefs;
 	public static final String GAME_PREFS = "ArithmeticFile";
 	private static final String LOGTAG = "word select";
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
 				WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
 		setContentView(R.layout.activity_main);
-		
+		boolean isNightMode = getSharedPreferences(GAME_PREFS, 0).getBoolean("mode",false);
+
+		if(isNightMode) {
+			getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+		} else {
+			getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+		}
+
 		soundMap.put(1, soundPool.load(this, R.raw.click, 1));
 		soundMap.put(2, soundPool.load(this, R.raw.correct, 1));
 		soundMap.put(3, soundPool.load(this, R.raw.lose, 1));
@@ -105,7 +113,6 @@ public class MainActivity extends Activity implements OnClickListener {
 			switch(thesaurus){
 				case "CET4" :
 					words = clw.populateWords(getAssets().open("CET4.xmf"));
-
 					break;
 				case "CET6" :
 					words = clw.populateWords(getAssets().open("CET6.xmf"));

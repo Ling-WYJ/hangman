@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="@color/background"
     android:gravity="right"
-    android:orientation="vertical" 
-    android:background="@layout/gradient">
+    android:orientation="vertical">
 
     <!-- Show Preference in ListView  -->
 
@@ -14,17 +14,17 @@
         android:id="@+id/lay_voice_switch2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="17dp"
-        android:layout_marginLeft="17dp"
-        android:layout_marginRight="17dp"
         android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
         android:layout_marginTop="24dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
         android:background="@drawable/shape_switch_bg"
         android:orientation="horizontal"
-        android:paddingBottom="7dp"
         android:paddingLeft="20dp"
-        android:paddingRight="20dp"
         android:paddingTop="7dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="7dp"
         tools:ignore="MissingConstraints">
 
 
@@ -38,45 +38,65 @@
             android:textColor="@color/black" />
 
         <per.stramchen.switchbuttondemo.SwitchButton
+            android:id="@+id/switchButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:sb_checkline_width="2dp"
-            app:sb_checkline_color="@color/colorPrimary"
             app:sb_background="#E8E9EB"
             app:sb_checked_color="#65C065"
+            app:sb_checkline_color="@color/colorPrimary"
+            app:sb_checkline_width="2dp"
             app:sb_show_indicator="true" />
     </LinearLayout>
 
     <ListView
         android:id="@+id/android:list"
         android:layout_width="match_parent"
-        android:layout_height="0.0dp"
-        android:layout_weight="1"
- >
+        android:layout_height="150dp"
+        android:layout_weight="1">
 
     </ListView>
 
     <!-- Footer -->
 
 
-    <Spinner
-        android:id="@+id/spinner"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="102dp"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:text="    Thesaurus"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
 
     <RelativeLayout
         android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/buttonResume"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
             android:text="Resume" />
 
         <Button

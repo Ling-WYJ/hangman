@@ -27,52 +27,42 @@
         android:id="@+id/start_normal_activity"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="505dp"
-        android:textColor= "#FFFFFF"
+        android:layout_marginTop="288dp"
         android:text="@string/start_normalactivity"
+        android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/continue_dialog_activity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+        android:text="@string/continue_dialogactivity"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/start_normal_activity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintVertical_bias="0.552" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/start_dialog_activity"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        tools:ignore="MissingConstraints"
-        >
-
-        <Button
-            android:id="@+id/continue_dialog_activity"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="425dp"
-            android:layout_weight="1"
-            android:text="@string/continue_dialogactivity"
-            android:textColor="#FFFFFF"
-            app:layout_constraintBottom_toBottomOf="@+id/start_normal_activity"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0" />
-
-        <Button
-            android:id="@+id/start_dialog_activity"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="425dp"
-            android:layout_weight="1"
-            android:text="@string/start_dialogactivity"
-            android:textColor="#FFFFFF"
-            app:layout_constraintBottom_toBottomOf="@+id/start_normal_activity"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0" />
-    </LinearLayout>
-
+        android:layout_weight="1"
+        android:text="@string/start_dialogactivity"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/start_normal_activity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.274" />
 
 
 </android.support.constraint.ConstraintLayout>
