@@ -10,6 +10,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
+import android.support.v7.app.AppCompatDelegate;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -18,15 +19,32 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.ArrayAdapter;
+import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.AppCompatDelegate;
+
 
 public class SettingsActivity extends PreferenceActivity {
 	ArrayAdapter<String> adapter;
 	public SharedPreferences gamePrefs;
 	public static final String GAME_PREFS = "ArithmeticFile";
+	private per.stramchen.switchbuttondemo.SwitchButton switchButton;
+	private AppCompatDelegate mDelegate;
+
+
+
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_settings);
+		getDelegate().installViewFactory();
+		getDelegate().onCreate(savedInstanceState);
+		boolean isNightMode = getSharedPreferences(GAME_PREFS, 0).getBoolean("mode",false);
+		if(isNightMode) {
+			getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+		} else {
+			getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+		}
 		addPreferencesFromResource(R.xml.settings);
 		Button buttonNewGame = (Button) findViewById(R.id.buttonNewGame);
 		buttonNewGame.setOnClickListener(new OnClickListener() {
@@ -83,6 +101,27 @@ public class SettingsActivity extends PreferenceActivity {
 				parent.setVisibility(View.VISIBLE);
 			}
 		});
+		switchButton = this.<per.stramchen.switchbuttondemo.SwitchButton>findViewById(id.switchButton);
+		if(!isNightMode){
+			switchButton.setChecked(false);
+		} else {
+			switchButton.setChecked(true);
+		}
+		switchButton.setOnCheckedChangeListener(
+				new per.stramchen.switchbuttondemo.SwitchButton.OnCheckedChangeListener() {
+					@Override
+					public void onCheckedChanged(per.stramchen.switchbuttondemo.SwitchButton view, final boolean isChecked) {
+						editor.putBoolean("mode",isChecked);
+						editor.apply();
+						Log.d("mode",isChecked?"夜间":"日间");
+						Log.d("mode",getSharedPreferences(GAME_PREFS, 0).getBoolean("mode",false)?"夜间":"日间");
+						if(isChecked) {
+							getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+						} else {
+							getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+						}
+					}
+				});
 
 
 	}
@@ -97,5 +136,12 @@ public class SettingsActivity extends PreferenceActivity {
 			return true;
 		}
 		return false;
+	}
+
+	private AppCompatDelegate getDelegate() {
+		if (mDelegate == null) {
+			mDelegate = AppCompatDelegate.create(this, null);
+		}
+		return mDelegate;
 	}
 }

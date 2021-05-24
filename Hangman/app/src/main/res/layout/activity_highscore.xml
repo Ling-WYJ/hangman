@@ -2,8 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@layout/gradient"
-    android:gravity="center" >
+    android:background="@color/background"
+    android:gravity="center">
 
     <ScrollView
         android:id="@+id/list"

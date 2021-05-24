@@ -204,8 +204,8 @@ public class GamePlay {
 		Animation.hangman.setFramePeriod(200);
 		Animation.hangman.setSpriteWidth(bitmap.getWidth() / frameCount);
 		Animation.hangman.setSpriteHeight(bitmap.getHeight());
-		Animation.hangman.setX(110);
-		Animation.hangman.setY(90);
+		Animation.hangman.setX(300);
+		Animation.hangman.setY(150);
 		Animation.hangman.setFrameNr(frameCount);
 		Animation.hangman.setCurrentFrame(0);
 		Animation.hangman.setSourceRect(new Rect(0, 0, Animation.hangman

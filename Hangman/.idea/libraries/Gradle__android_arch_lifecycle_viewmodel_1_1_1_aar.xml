@@ -4,14 +4,14 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4bd2ad0bc9e69cb6193fe8cc56dbe5b4/transformed/viewmodel-1.1.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4bd2ad0bc9e69cb6193fe8cc56dbe5b4/transformed/viewmodel-1.1.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4bd2ad0bc9e69cb6193fe8cc56dbe5b4/transformed/viewmodel-1.1.1/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../../../../MyDownloads/Download/Android/gradle-6.8.3/caches/transforms-3/4bd2ad0bc9e69cb6193fe8cc56dbe5b4/transformed/viewmodel-1.1.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../../MyDownloads/Download/Android/gradle-6.8.3/caches/transforms-3/4bd2ad0bc9e69cb6193fe8cc56dbe5b4/transformed/viewmodel-1.1.1/AndroidManifest.xml" />
-      <root url="file://$PROJECT_DIR$/../../../../../MyDownloads/Download/Android/gradle-6.8.3/caches/transforms-3/4bd2ad0bc9e69cb6193fe8cc56dbe5b4/transformed/viewmodel-1.1.1/res" />
+      <root url="jar://$PROJECT_DIR$/../MyDownloads/Download/Android/gradle-6.8.3/caches/transforms-3/4bd2ad0bc9e69cb6193fe8cc56dbe5b4/transformed/viewmodel-1.1.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../MyDownloads/Download/Android/gradle-6.8.3/caches/transforms-3/4bd2ad0bc9e69cb6193fe8cc56dbe5b4/transformed/viewmodel-1.1.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../MyDownloads/Download/Android/gradle-6.8.3/caches/transforms-3/4bd2ad0bc9e69cb6193fe8cc56dbe5b4/transformed/viewmodel-1.1.1/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/viewmodel/1.1.1/d1cc8e805317f171be63c68341f499acda7e42d6/viewmodel-1.1.1-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../../MyDownloads/Download/Android/gradle-6.8.3/caches/modules-2/files-2.1/android.arch.lifecycle/viewmodel/1.1.1/d1cc8e805317f171be63c68341f499acda7e42d6/viewmodel-1.1.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../MyDownloads/Download/Android/gradle-6.8.3/caches/modules-2/files-2.1/android.arch.lifecycle/viewmodel/1.1.1/d1cc8e805317f171be63c68341f499acda7e42d6/viewmodel-1.1.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
