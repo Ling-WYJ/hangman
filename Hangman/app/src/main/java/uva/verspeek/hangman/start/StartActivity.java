@@ -38,16 +38,46 @@ public class StartActivity extends Activity {
         aa.setDuration(3000);
         view.startAnimation(aa);
 
-        android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(StartActivity.this);
-        builder.setTitle("Your mission");
-        builder.setMessage("Type in the letters. Guess the mind of LiHua. Stop the tragedy from happening.");
-        builder.setPositiveButton("Get it.", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                Toast.makeText(StartActivity.this, "Good luck.", Toast.LENGTH_SHORT).show();
+        Bundle newGame = getIntent().getExtras();
+        if (newGame != null) {
+
+            boolean win = this.getIntent().getExtras().getBoolean("win");
+            if (!win) {
+                android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(StartActivity.this);
+                builder.setTitle("Sorry that you didn't succeed in rescuing Li Hua");
+                builder.setMessage("Li Hua is in danger again. Try to save him again!");
+                builder.setPositiveButton("Go", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+//                        Toast.makeText(StartActivity.this, "Good luck", Toast.LENGTH_SHORT).show();
+                        Intent gameIntent = new Intent(StartActivity.this,
+                                MainActivity.class);
+                        gameIntent.putExtra("newgame", "newgame");
+                        StartActivity.this.startActivity(gameIntent);
+                        StartActivity.this.finish();
+                    }
+                });
+                builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                    }
+                });
+                builder.show();
             }
-        });
-        builder.show();
+        }
+        else {
+
+            android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(StartActivity.this);
+            builder.setTitle("Your mission");
+            builder.setMessage("Type in the letters. Guess the correct English word. Stop the tragedy from happening.");
+            builder.setPositiveButton("Get it", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    Toast.makeText(StartActivity.this, "Good luck.", Toast.LENGTH_SHORT).show();
+                }
+            });
+            builder.show();
+        }
 
         Button startNormalActivity = (Button) findViewById(R.id.start_normal_activity);
         Button startDialogActivity = (Button) findViewById(R.id.start_dialog_activity);
@@ -72,6 +102,7 @@ public class StartActivity extends Activity {
                 Intent intent = new Intent(StartActivity.this, MainActivity.class);
                 intent.putExtra("newgame", "newgame");
                 startActivity(intent);
+                StartActivity.this.finish();
             }
         });
 
@@ -80,6 +111,7 @@ public class StartActivity extends Activity {
             public void onClick(View v) {
                 Intent intent = new Intent(StartActivity.this, MainActivity.class);
                 startActivity(intent);
+                StartActivity.this.finish();
             }
         });
 

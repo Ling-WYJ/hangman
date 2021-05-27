@@ -74,6 +74,7 @@ public class HighScoreActivity extends AppCompatActivity {
 			public void onClick(View v) {
 				Intent gameIntent = new Intent(HighScoreActivity.this,
 						StartActivity.class);
+				gameIntent.putExtra("win",true);
 				HighScoreActivity.this.startActivity(gameIntent);
 				HighScoreActivity.this.finish();
 			}

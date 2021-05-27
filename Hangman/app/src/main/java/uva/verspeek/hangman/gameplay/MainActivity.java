@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 			// get the prefs object.
 			SharedPreferences settings = PreferenceManager
 					.getDefaultSharedPreferences(this);
-			wordLength = settings.getInt("wordLength", 9);
+			wordLength = settings.getInt("wordLength", 5);
 
 			randomWord = gamePrefs.getString("word",
 					clw.getWord(wordLength, words).toUpperCase());

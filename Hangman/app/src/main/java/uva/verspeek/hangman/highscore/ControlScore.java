@@ -68,6 +68,7 @@ public class ControlScore {
 	public void startHighscore(Activity activity){
 		Intent highIntent = new Intent(activity,
 				HighScoreActivity.class);
+		highIntent.putExtra("win",true);
 		activity.startActivity(highIntent);
 		activity.finish();
 	}
@@ -75,6 +76,7 @@ public class ControlScore {
 	public void startInitscore(Activity activity){
 		Intent highIntent = new Intent(activity,
 				StartActivity.class);
+		highIntent.putExtra("win",false);
 		activity.startActivity(highIntent);
 		activity.finish();
 	}

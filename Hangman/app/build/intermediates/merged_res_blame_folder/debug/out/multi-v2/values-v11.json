@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "G:\\Hangman (2)\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "G:\\Hangman (2)\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "source": "C:\\Users\\1\\Desktop\\hangman\\Hangman\\app\\src\\main\\res\\values-v11\\styles.xml",
                     "from": {
                         "startLines": "6",
                         "startColumns": "4",

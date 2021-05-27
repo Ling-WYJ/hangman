@@ -54,7 +54,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginRight="323dp"
         android:layout_marginBottom="5dp"
-        android:text="返回" />
+        android:text="BACK" />
 
     <Button
         android:id="@+id/buttonNewGame"
@@ -64,6 +64,6 @@
         android:layout_alignParentBottom="true"
         android:layout_marginRight="3dp"
         android:layout_marginBottom="5dp"
-        android:text="新游戏" />
+        android:text="NEW GAME" />
 
 </RelativeLayout>
