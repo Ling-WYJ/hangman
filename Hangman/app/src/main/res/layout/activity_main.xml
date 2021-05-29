@@ -70,5 +70,22 @@
         android:layout_alignParentRight="true"
         android:src="@android:drawable/ic_menu_preferences" />
 
+    <ImageButton
+        android:id="@+id/remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:src="@android:drawable/ic_menu_revert" />
+
+    <ImageButton
+        android:id="@+id/tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/remove"
+        android:layout_alignParentLeft="true"
+        android:src="@android:drawable/ic_menu_view" />
+            
+
 
 </RelativeLayout>

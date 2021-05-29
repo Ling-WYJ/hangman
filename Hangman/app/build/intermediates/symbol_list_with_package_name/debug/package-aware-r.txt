@@ -804,6 +804,7 @@ id percent
 id progress_circular
 id progress_horizontal
 id radio
+id remove
 id right
 id right_icon
 id right_side
@@ -856,6 +857,7 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id time
+id tips
 id title
 id titleDividerNoCustom
 id title_template

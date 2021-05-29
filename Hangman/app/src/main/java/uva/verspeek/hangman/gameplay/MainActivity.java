@@ -93,6 +93,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 		soundMap.put(5, soundPool.load(this, R.raw.wrong, 1));
 		
 		ImageButton settingsButton = (ImageButton) findViewById(R.id.settings);
+		ImageButton tipsButton = (ImageButton) findViewById(R.id.tips);
 
 		settingsButton.setOnClickListener(new OnClickListener() {
 			@Override
@@ -103,6 +104,15 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 				MainActivity.this.finish();
 			}
 		});
+		tipsButton.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v){
+				gameplay.giveTips();
+				populateButtons();
+				gameplay.showLetters();
+			}
+		});
+
 		cls = new ControlScore();
 		clw = new ControlWords();
 		gameplay = new GamePlay(this);
@@ -192,7 +202,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 			cb.setOnClickListener(this);
 			
 			if (guessedLetters.contains("" + buttonChar)) {
-				cb.setBackgroundResource(R.drawable.shape);
+				cb.setBackgroundResource(R.drawable.gussed);
 				cb.setOnClickListener(null);
 			}
 			mButtons.add(cb);

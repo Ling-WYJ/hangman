@@ -2,8 +2,8 @@ uva/verspeek/hangman/highscore/Score.java
  uva.verspeek.hangman.highscore.Score
 uva/verspeek/hangman/gameplay/CustomAdapter.java
  uva.verspeek.hangman.gameplay.CustomAdapter
-uva/verspeek/hangman/BuildConfig.java
- uva.verspeek.hangman.BuildConfig
+uva/verspeek/hangman/highscore/ControlScore.java
+ uva.verspeek.hangman.highscore.ControlScore
 uva/verspeek/hangman/start/SwitchButton.java
  per.stramchen.switchbuttondemo.SwitchButton
  per.stramchen.switchbuttondemo.SwitchButton$1
@@ -19,22 +19,29 @@ uva/verspeek/hangman/settings/SettingsActivity.java
  uva.verspeek.hangman.settings.SettingsActivity$2
  uva.verspeek.hangman.settings.SettingsActivity$3
  uva.verspeek.hangman.settings.SettingsActivity$4
-uva/verspeek/hangman/animation/AnimationThread.java
- uva.verspeek.hangman.animation.AnimationThread
+uva/verspeek/hangman/gameplay/MainActivity.java
+ uva.verspeek.hangman.gameplay.MainActivity
+ uva.verspeek.hangman.gameplay.MainActivity$1
+ uva.verspeek.hangman.gameplay.MainActivity$2
+ uva.verspeek.hangman.gameplay.MainActivity$3
 uva/verspeek/hangman/animation/Animation.java
  uva.verspeek.hangman.animation.Animation
 uva/verspeek/hangman/settings/SeekBarPreference.java
  uva.verspeek.hangman.settings.SeekBarPreference
 uva/verspeek/hangman/gameplay/ControlWords.java
  uva.verspeek.hangman.gameplay.ControlWords
-uva/verspeek/hangman/gameplay/MainActivity.java
- uva.verspeek.hangman.gameplay.MainActivity
- uva.verspeek.hangman.gameplay.MainActivity$1
- uva.verspeek.hangman.gameplay.MainActivity$2
+uva/verspeek/hangman/animation/AnimationThread.java
+ uva.verspeek.hangman.animation.AnimationThread
+uva/verspeek/hangman/BuildConfig.java
+ uva.verspeek.hangman.BuildConfig
 uva/verspeek/hangman/gameplay/GamePlay.java
  uva.verspeek.hangman.gameplay.GamePlay
  uva.verspeek.hangman.gameplay.GamePlay$1
  uva.verspeek.hangman.gameplay.GamePlay$2
+uva/verspeek/hangman/highscore/HighScoreActivity.java
+ uva.verspeek.hangman.highscore.HighScoreActivity
+ uva.verspeek.hangman.highscore.HighScoreActivity$1
+ uva.verspeek.hangman.highscore.HighScoreActivity$2
 uva/verspeek/hangman/start/StartActivity.java
  uva.verspeek.hangman.start.StartActivity
  uva.verspeek.hangman.start.StartActivity$1
@@ -43,9 +50,3 @@ uva/verspeek/hangman/start/StartActivity.java
  uva.verspeek.hangman.start.StartActivity$4
  uva.verspeek.hangman.start.StartActivity$5
  uva.verspeek.hangman.start.StartActivity$6
-uva/verspeek/hangman/highscore/HighScoreActivity.java
- uva.verspeek.hangman.highscore.HighScoreActivity
- uva.verspeek.hangman.highscore.HighScoreActivity$1
- uva.verspeek.hangman.highscore.HighScoreActivity$2
-uva/verspeek/hangman/highscore/ControlScore.java
- uva.verspeek.hangman.highscore.ControlScore

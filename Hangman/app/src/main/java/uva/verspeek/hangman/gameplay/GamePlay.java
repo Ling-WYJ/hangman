@@ -1,6 +1,7 @@
 package uva.verspeek.hangman.gameplay;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 import uva.verspeek.hangman.R;
 import uva.verspeek.hangman.animation.Animation;
@@ -25,7 +26,7 @@ import android.widget.Toast;
 
 public class GamePlay {
 	protected MainActivity context;
-
+	protected String noDuplicates;
 	public GamePlay(Context context) {
 		this.context = (MainActivity) context;
 	}
@@ -158,7 +159,7 @@ public class GamePlay {
 
 	public void showLetters() {
 		String displayWord = context.randomWord;
-		String noDuplicates = removeDuplicateChars(context.randomWord);
+		noDuplicates = removeDuplicateChars(context.randomWord);
 		boolean win = true;
 		int flag = 0;
 		for (int i = 0; i < noDuplicates.length(); i++) {
@@ -227,5 +228,25 @@ public class GamePlay {
 		}
 
 		context.firstmove = false;
+	}
+
+	public void giveTips() {
+		String tipWord = new String();
+		Random rand = new Random();
+		for (int i = 0; i < noDuplicates.length(); i++) {
+			if (context.guessedLetters.contains("" + noDuplicates.charAt(i))) {
+				Log.d("tipGussed",String.valueOf(noDuplicates.charAt(i)));
+			}else{
+				tipWord = tipWord + noDuplicates.charAt(i);
+			}
+		}
+		Log.d("tipWord", tipWord);//未猜过的字母
+		int i = rand.nextInt(tipWord.length());//产生随机index
+		Log.d("tipNum", String.valueOf(i));
+		Log.d("tipLetter", "" + tipWord.charAt(i));
+		//Toast.makeText(context.getApplicationContext(),
+		// "Try the letter " + tipWord.charAt(i),
+		//		Toast.LENGTH_LONG).show();
+		context.guessedLetters.add(String.valueOf(tipWord.charAt(i)));
 	}
 }
