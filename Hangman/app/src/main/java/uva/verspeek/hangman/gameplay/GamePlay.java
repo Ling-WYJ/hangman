@@ -240,7 +240,7 @@ public class GamePlay {
 				tipWord = tipWord + noDuplicates.charAt(i);
 			}
 		}
-		Log.d("tipWord", tipWord);//未猜过的字母
+		Log.d("tipWord", tipWord);//未猜过的正确字母
 		int i = rand.nextInt(tipWord.length());//产生随机index
 		Log.d("tipNum", String.valueOf(i));
 		Log.d("tipLetter", "" + tipWord.charAt(i));
@@ -249,4 +249,36 @@ public class GamePlay {
 		//		Toast.LENGTH_LONG).show();
 		context.guessedLetters.add(String.valueOf(tipWord.charAt(i)));
 	}
+
+	public void removeOne() {
+		String tipWord = new String();
+		String gussedOrCorrectLetter = new String();
+		String removeLetter = new String();
+		Random rand = new Random();
+		for (int i = 0; i < noDuplicates.length(); i++) {
+			if (context.guessedLetters.contains("" + noDuplicates.charAt(i))) {
+				Log.d("tipGussed",String.valueOf(noDuplicates.charAt(i)));
+			}else{
+				tipWord = tipWord + noDuplicates.charAt(i);
+			}
+		}
+		Log.d("tipWord", tipWord);//未猜过的正确字母
+		//未猜过的正确字母或猜过的字母
+		gussedOrCorrectLetter = tipWord + context.guessedLetters;
+		for (char buttonChar = 'A'; buttonChar <= 'Z'; buttonChar++) {
+			if (gussedOrCorrectLetter.contains("" + buttonChar)) {
+				//Log.d("Gussed",String.valueOf(buttonChar));
+			}else{
+				removeLetter = removeLetter + buttonChar;
+			}
+		}
+		int i = rand.nextInt(removeLetter.length());//产生随机index
+		Log.d("removeNum", String.valueOf(i));
+		Log.d("removeLetter", "" + removeLetter.charAt(i));
+		//Toast.makeText(context.getApplicationContext(),
+		// "Try the letter " + tipWord.charAt(i),
+		//		Toast.LENGTH_LONG).show();
+		context.guessedLetters.add(String.valueOf(removeLetter.charAt(i)));
+	}
+
 }

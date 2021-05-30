@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 		
 		ImageButton settingsButton = (ImageButton) findViewById(R.id.settings);
 		ImageButton tipsButton = (ImageButton) findViewById(R.id.tips);
-
+		ImageButton removeButton = (ImageButton) findViewById(R.id.remove);
 		settingsButton.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
@@ -108,6 +108,15 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 			@Override
 			public void onClick(View v){
 				gameplay.giveTips();
+				populateButtons();
+				gameplay.showLetters();
+			}
+		});
+
+		removeButton.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v){
+				gameplay.removeOne();
 				populateButtons();
 				gameplay.showLetters();
 			}
