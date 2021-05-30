@@ -27,6 +27,7 @@ import android.widget.Toast;
 public class GamePlay {
 	protected MainActivity context;
 	protected String noDuplicates;
+	protected Random r = new Random();
 	public GamePlay(Context context) {
 		this.context = (MainActivity) context;
 	}
@@ -124,6 +125,7 @@ public class GamePlay {
 				context.words).toUpperCase();
 		context.moves = 0;
 		context.guessedLetters = new ArrayList<String>();
+		context.animationGroup = r.nextInt(2);
 		TextView movesLeft = (TextView) context.findViewById(R.id.moves);
 		movesLeft.setText("Moves left: " + (context.maxMoves - context.moves));
 		context.populateButtons();
@@ -193,7 +195,7 @@ public class GamePlay {
 			frame = numberHangmans;
 		}
 		Resources res = context.getResources();
-		int resourceId = res.getIdentifier("hangmanid" + frame, "drawable",
+		int resourceId = res.getIdentifier("hangmanid" + context.animationGroup + frame, "drawable",
 				context.getPackageName());
 
 		Bitmap bitmap = BitmapFactory.decodeResource(context.getResources(),

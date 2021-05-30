@@ -24,7 +24,7 @@
 
         <ImageView
             android:id="@+id/babyButton"
-            android:src="@drawable/hangmanid0"
+            android:src="@drawable/hangmanid00"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -41,7 +41,7 @@
 
         <ImageView
             android:id="@+id/kidsButton"
-            android:src="@drawable/hangmanid1"
+            android:src="@drawable/hangmanid01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -59,7 +59,7 @@
 
         <ImageView
             android:id="@+id/adultsButton"
-            android:src="@drawable/hangmanid3"
+            android:src="@drawable/hangmanid03"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"

@@ -63,13 +63,13 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 	int wordLength;
 	int maxLength;
 	boolean firstmove;
+	int animationGroup;
 	String thesaurus;
 	ControlScore cls;
 	ControlWords clw;
 	GamePlay gameplay;
 	public SharedPreferences gamePrefs;
 	public static final String GAME_PREFS = "ArithmeticFile";
-	private static final String LOGTAG = "word select";
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -261,6 +261,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 			editor.putString("word", randomWord);
 			editor.putString("guessedLetters", "" + guessedLetters);
 			editor.putString("Thesaurus",thesaurus);
+			editor.putInt("group",animationGroup);
 
 			// Commit to storage
 			editor.commit();
