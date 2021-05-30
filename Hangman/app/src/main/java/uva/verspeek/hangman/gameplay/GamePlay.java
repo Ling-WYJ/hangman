@@ -201,9 +201,18 @@ public class GamePlay {
 		Bitmap bitmap = BitmapFactory.decodeResource(context.getResources(),
 				resourceId);
 
-		int frameCount = 9;
-		if (frame == 5)
-			frameCount = 13;
+		int frameCount= 1;
+		if(context.animationGroup==0){
+			frameCount = 8;
+			if (frame == 0 || frame == 8)
+				frameCount = 1;
+		}
+		if(context.animationGroup==1){
+			frameCount = 9;
+			if (frame == 5)
+				frameCount = 13;
+		}
+
 		Animation.hangman.setFramePeriod(200);
 		Animation.hangman.setSpriteWidth(bitmap.getWidth() / frameCount);
 		Animation.hangman.setSpriteHeight(bitmap.getHeight());
