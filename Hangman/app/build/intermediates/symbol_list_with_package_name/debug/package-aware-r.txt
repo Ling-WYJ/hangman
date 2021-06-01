@@ -454,6 +454,7 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
+color transparent
 color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
@@ -692,8 +693,11 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable remove
+drawable settings
 drawable shape
 drawable shape_switch_bg
+drawable tips
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT

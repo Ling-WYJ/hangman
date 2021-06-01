@@ -24,7 +24,8 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
-
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <declare-styleable name="SwitchButton">

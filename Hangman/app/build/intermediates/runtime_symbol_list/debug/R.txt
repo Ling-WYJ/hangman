@@ -453,7 +453,8 @@ int color switch_thumb_normal_material_dark 0x7f050058
 int color switch_thumb_normal_material_light 0x7f050059
 int color tooltip_background_dark 0x7f05005a
 int color tooltip_background_light 0x7f05005b
-int color white 0x7f05005c
+int color transparent 0x7f05005c
+int color white 0x7f05005d
 int dimen abc_action_bar_content_inset_material 0x7f060000
 int dimen abc_action_bar_content_inset_with_nav 0x7f060001
 int dimen abc_action_bar_default_height_material 0x7f060002
@@ -691,10 +692,13 @@ int drawable notification_template_icon_bg 0x7f070076
 int drawable notification_template_icon_low_bg 0x7f070077
 int drawable notification_tile_bg 0x7f070078
 int drawable notify_panel_notification_icon_bg 0x7f070079
-int drawable shape 0x7f07007a
-int drawable shape_switch_bg 0x7f07007b
-int drawable tooltip_frame_dark 0x7f07007c
-int drawable tooltip_frame_light 0x7f07007d
+int drawable remove 0x7f07007a
+int drawable settings 0x7f07007b
+int drawable shape 0x7f07007c
+int drawable shape_switch_bg 0x7f07007d
+int drawable tips 0x7f07007e
+int drawable tooltip_frame_dark 0x7f07007f
+int drawable tooltip_frame_light 0x7f070080
 int id ALT 0x7f080000
 int id CTRL 0x7f080001
 int id FUNCTION 0x7f080002

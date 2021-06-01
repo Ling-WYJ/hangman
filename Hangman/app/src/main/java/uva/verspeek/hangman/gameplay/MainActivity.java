@@ -212,6 +212,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 			
 			if (guessedLetters.contains("" + buttonChar)) {
 				cb.setBackgroundResource(R.drawable.gussed);
+				cb.setTextColor(Color.parseColor("#5a6168"));
 				cb.setOnClickListener(null);
 			}
 			mButtons.add(cb);
@@ -224,6 +225,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 	public void onClick(View v) {
 		Button selection = (Button) v;
 		selection.setBackgroundResource(R.drawable.gussed);
+		selection.setTextColor(Color.parseColor("#5a6168"));
 		selection.setOnClickListener(null);
 		this.soundPool.play(this.soundMap.get(1), 1, 1, 0, 0, 1);
 		gameplay.newGuess((String) selection.getText());

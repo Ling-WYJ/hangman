@@ -93,14 +93,15 @@ SurfaceHolder.Callback {
 		    Paint p = new Paint();
 		    // start at 0,0 and go to 0,max to use a vertical
 		    // gradient the full height of the screen.
-		    p.setShader(new LinearGradient
+		    /*p.setShader(new LinearGradient
 					(0, 0, 0,
 							getHeight(),
 							Color.rgb(181,178,177),
 							Color.rgb(169,159,150),
-							Shader.TileMode.MIRROR));
+							Shader.TileMode.MIRROR));*/
 		    canvas.drawPaint(p);
 			//canvas.drawColor(Color.rgb(255,238,114));
+			canvas.drawColor(getResources().getColor(R.color.background));
 			hangman.draw(canvas);
 		}
 	}
