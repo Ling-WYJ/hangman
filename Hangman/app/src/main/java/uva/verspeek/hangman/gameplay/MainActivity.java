@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 	int maxLength;
 	boolean firstmove;
 	int animationGroup;
+	int score=0;
 	String thesaurus;
 	ControlScore cls;
 	ControlWords clw;
@@ -107,18 +108,50 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 		tipsButton.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v){
-				gameplay.giveTips();
-				populateButtons();
-				gameplay.showLetters();
+				android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(MainActivity.this);
+				builder.setTitle("Tips");
+				builder.setMessage("This operation will show you a correct letter, but will deduct the final score of 20 points.\nAre you sure to do this?");
+				builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+					@Override
+					public void onClick(DialogInterface dialog, int which) {
+//                        Toast.makeText(StartActivity.this, "Good luck", Toast.LENGTH_SHORT).show();
+						score+=20;
+						gameplay.giveTips();
+						populateButtons();
+						gameplay.showLetters();
+					}
+				});
+				builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+					@Override
+					public void onClick(DialogInterface dialog, int which) {
+					}
+				});
+				builder.show();
 			}
 		});
 
 		removeButton.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v){
-				gameplay.removeOne();
-				populateButtons();
-				gameplay.showLetters();
+				android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(MainActivity.this);
+				builder.setTitle("Tips");
+				builder.setMessage("This operation will remove a wrong letter from the keyboard for you, but the final score will be deducted by 5 points.\nAre you sure to do this?");
+				builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+					@Override
+					public void onClick(DialogInterface dialog, int which) {
+//                        Toast.makeText(StartActivity.this, "Good luck", Toast.LENGTH_SHORT).show();
+						score+=5;
+						gameplay.removeOne();
+						populateButtons();
+						gameplay.showLetters();
+					}
+				});
+				builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+					@Override
+					public void onClick(DialogInterface dialog, int which) {
+					}
+				});
+				builder.show();
 			}
 		});
 

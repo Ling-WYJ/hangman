@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\AllTry\\git\\hangman\\Hangman\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "E:\\AndroidWork\\hangman01\\Hangman-master.zip\\Hangman\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "D:\\AllTry\\git\\hangman\\Hangman\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "source": "E:\\AndroidWork\\hangman01\\Hangman-master.zip\\Hangman\\app\\src\\main\\res\\values-v11\\styles.xml",
                     "from": {
                         "startLines": "6",
                         "startColumns": "4",

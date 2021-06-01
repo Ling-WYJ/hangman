@@ -81,7 +81,7 @@ public class ControlScore {
 		activity.finish();
 	}
 	
-	public int getScore(String randomWord, int maxMoves, int mistakes) {
+	public int getScore(String randomWord, int maxMoves, int mistakes,int wrong) {
 		String letters = "ETAOINSHRDLCUMWFGYPBVKJXQZ";
 		HashSet<Character> set = new HashSet<Character>();
 
@@ -101,7 +101,7 @@ public class ControlScore {
 		Log.d("unique", "" + unique);
 		Log.d("positions", "" + randomWord.length());
 		int score = (randomWord.length() * unique * positions - maxMoves)
-				/ (mistakes + 1);
+				/ (mistakes + 1)-wrong;
 		if (score < 0)
 			score = 0;
 		return score;
