@@ -869,6 +869,7 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView
 id time
 id tips
 id title

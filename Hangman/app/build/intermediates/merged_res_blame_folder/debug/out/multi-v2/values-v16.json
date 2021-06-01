@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\AndroidWork\\hangman01\\Hangman-master.zip\\Hangman\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "C:\\Source\\documents\\GitHub\\hangman\\Hangman\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\1\\.gradle\\caches\\transforms-3\\57fa96ce951cc07debd3ba8722df37ee\\transformed\\appcompat-v7-28.0.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\pemerstristy\\.gradle\\caches\\transforms-3\\57fa96ce951cc07debd3ba8722df37ee\\transformed\\appcompat-v7-28.0.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\1\\.gradle\\caches\\transforms-3\\0d1b0ca980c3793bc1a05dae62172af6\\transformed\\support-compat-28.0.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\pemerstristy\\.gradle\\caches\\transforms-3\\0d1b0ca980c3793bc1a05dae62172af6\\transformed\\support-compat-28.0.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
