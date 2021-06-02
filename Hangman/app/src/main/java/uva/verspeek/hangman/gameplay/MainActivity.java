@@ -5,6 +5,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.HashMap;
+
+import pl.droidsonroids.gif.GifDrawable;
+import pl.droidsonroids.gif.GifImageView;
 import uva.verspeek.hangman.R;
 import uva.verspeek.hangman.animation.Animation;
 import uva.verspeek.hangman.highscore.ControlScore;
@@ -80,12 +83,67 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 
 		setContentView(R.layout.activity_main);
 		boolean isNightMode = getSharedPreferences(GAME_PREFS, 0).getBoolean("mode",false);
+		boolean isChanged = getSharedPreferences(GAME_PREFS, 0).getBoolean("change",false);
+		Log.d("66666666:", String.valueOf(isChanged));
+
+
+		final GifImageView gifImageView1 = (GifImageView) findViewById(R.id.gif1);
+
+		final GifImageView gifImageView2 = (GifImageView) findViewById(R.id.gif2);
+
+		try {
+			// 如果加载的是gif动图，第一步需要先将gif动图资源转化为GifDrawable
+			// 将gif图资源转化为GifDrawable
+			GifDrawable gifDrawable = new GifDrawable(getResources(), R.drawable.gif1);
+			// gif1加载一个动态图gif
+			gifImageView1.setImageDrawable(gifDrawable);
+
+			GifDrawable gifDrawable1 = new GifDrawable(getResources(), R.drawable.gif2);
+			// gif1加载一个动态图gif
+			gifImageView2.setImageDrawable(gifDrawable1);
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+
+
+		if(isChanged)
+		{
+			if(isNightMode)
+			{
+				gifImageView1.setVisibility(View.VISIBLE);//隐藏对话框
+				new Handler().postDelayed(new Runnable()
+				{
+					public void run()
+					{
+						gifImageView1.setVisibility(View.INVISIBLE);//隐藏对话框
+					}
+				}, 3000);
+			}
+			else{
+				gifImageView2.setVisibility(View.VISIBLE);//隐藏对话框
+				new Handler().postDelayed(new Runnable()
+				{
+					public void run()
+					{
+						gifImageView2.setVisibility(View.INVISIBLE);//隐藏对话框
+					}
+				}, 3000);
+			}
+			SharedPreferences settings = getSharedPreferences(GAME_PREFS, 0);
+			SharedPreferences.Editor editor = settings.edit();
+			editor.putBoolean("change",false);
+			editor.apply();
+		}
 
 		if(isNightMode) {
 			getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_YES);
 		} else {
 			getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_NO);
 		}
+
+
 
 		soundMap.put(1, soundPool.load(this, R.raw.click, 1));
 		soundMap.put(2, soundPool.load(this, R.raw.correct, 1));
@@ -297,6 +355,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 			editor.putString("guessedLetters", "" + guessedLetters);
 			editor.putString("Thesaurus",thesaurus);
 			editor.putInt("group",animationGroup);
+			//editor.putBoolean("change",false);
 
 			// Commit to storage
 			editor.commit();

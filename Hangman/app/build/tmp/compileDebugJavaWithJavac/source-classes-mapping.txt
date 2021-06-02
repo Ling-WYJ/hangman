@@ -23,12 +23,14 @@ uva/verspeek/hangman/gameplay/MainActivity.java
  uva.verspeek.hangman.gameplay.MainActivity
  uva.verspeek.hangman.gameplay.MainActivity$1
  uva.verspeek.hangman.gameplay.MainActivity$2
- uva.verspeek.hangman.gameplay.MainActivity$2$1
- uva.verspeek.hangman.gameplay.MainActivity$2$2
  uva.verspeek.hangman.gameplay.MainActivity$3
- uva.verspeek.hangman.gameplay.MainActivity$3$1
- uva.verspeek.hangman.gameplay.MainActivity$3$2
  uva.verspeek.hangman.gameplay.MainActivity$4
+ uva.verspeek.hangman.gameplay.MainActivity$4$1
+ uva.verspeek.hangman.gameplay.MainActivity$4$2
+ uva.verspeek.hangman.gameplay.MainActivity$5
+ uva.verspeek.hangman.gameplay.MainActivity$5$1
+ uva.verspeek.hangman.gameplay.MainActivity$5$2
+ uva.verspeek.hangman.gameplay.MainActivity$6
 uva/verspeek/hangman/animation/Animation.java
  uva.verspeek.hangman.animation.Animation
 uva/verspeek/hangman/settings/SeekBarPreference.java

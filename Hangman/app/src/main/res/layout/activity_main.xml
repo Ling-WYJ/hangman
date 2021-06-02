@@ -38,10 +38,11 @@
         android:id="@+id/animation"
         class="uva.verspeek.hangman.animation.Animation"
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
+        android:layout_height="323dp"
         android:layout_above="@+id/moves"
         android:layout_below="@+id/word"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp" />
 
     <TextView
         android:id="@+id/moves"
@@ -92,6 +93,17 @@
         android:background="#00000000"
         android:src="@drawable/tips" />
 
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
 
 
 </RelativeLayout>

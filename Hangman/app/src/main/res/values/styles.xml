@@ -27,6 +27,7 @@
         <item name="android:fontFamily">casual</item>
         <item name="fontFamily">casual</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Toast</item>
     </style>
 
     <declare-styleable name="SwitchButton">
