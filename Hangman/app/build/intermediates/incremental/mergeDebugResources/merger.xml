@@ -2697,6 +2697,7 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="android:fontFamily">casual</item>
+        <item name="fontFamily">casual</item>
         <item name="android:textStyle">bold</item>
     </style><declare-styleable name="SwitchButton">
         <attr format="reference|dimension" name="sb_shadow_radius"/>
