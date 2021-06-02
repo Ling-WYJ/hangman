@@ -1,7 +1,7 @@
-#Wed Jun 02 09:22:02 CST 2021
-base.0=D\:\\AllTry\\git\\hangman\\Hangman\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+#Wed Jun 02 00:14:37 CST 2021
+base.0=C\:\\Source\\documents\\GitHub\\hangman\\Hangman\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=D\:\\AllTry\\git\\hangman\\Hangman\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+base.1=C\:\\Source\\documents\\GitHub\\hangman\\Hangman\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex

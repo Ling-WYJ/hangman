@@ -5,70 +5,70 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-7-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:7:5-9:41
+7-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:7:5-9:41
 8        android:minSdkVersion="29"
-8-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:8:9-35
+8-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:8:9-35
 9        android:targetSdkVersion="29" />
-9-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:9:9-38
+9-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:9:9-38
 10
 11    <application
-11-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:11:5-42:19
+11-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:11:5-42:19
 12        android:allowBackup="true"
-12-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:13:9-35
+12-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:13:9-35
 13        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
-13-->[com.android.support:support-compat:28.0.0] D:\MyDownloads\Download\Android\gradle-6.8.3\caches\transforms-3\0d1b0ca980c3793bc1a05dae62172af6\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+13-->[com.android.support:support-compat:28.0.0] C:\Users\pemerstristy\.gradle\caches\transforms-3\0d1b0ca980c3793bc1a05dae62172af6\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
 14        android:debuggable="true"
 15        android:extractNativeLibs="false"
 16        android:icon="@drawable/ic_launcher"
-16-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:14:9-45
+16-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:14:9-45
 17        android:label="@string/app_name"
-17-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:15:9-41
+17-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:15:9-41
 18        android:theme="@style/AppTheme" >
-18-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:16:9-40
+18-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:16:9-40
 19        <activity
-19-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:17:9-27:20
+19-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:17:9-27:20
 20            android:name="uva.verspeek.hangman.start.StartActivity"
-20-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:17:19-74
+20-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:17:19-74
 21            android:label="@string/app_name"
-21-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:18:13-45
+21-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:18:13-45
 22            android:screenOrientation="portrait" >
-22-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:19:13-49
+22-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:19:13-49
 23            <intent-filter>
-23-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:21:13-25:29
+23-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:21:13-25:29
 24                <action android:name="android.intent.action.MAIN" />
-24-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:22:17-69
-24-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:22:25-66
+24-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:22:17-69
+24-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:22:25-66
 25
 26                <category android:name="android.intent.category.LAUNCHER" />
-26-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:24:17-77
-26-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:24:27-74
+26-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:24:17-77
+26-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:24:27-74
 27            </intent-filter>
 28        </activity>
 29        <activity
-29-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:28:9-33:20
+29-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:28:9-33:20
 30            android:name="uva.verspeek.hangman.gameplay.MainActivity"
-30-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:29:13-70
+30-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:29:13-70
 31            android:label="@string/app_name"
-31-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:30:13-45
+31-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:30:13-45
 32            android:screenOrientation="portrait" >
-32-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:31:13-49
+32-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:31:13-49
 33        </activity>
 34        <activity
-34-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:34:9-37:61
+34-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:34:9-37:61
 35            android:name="uva.verspeek.hangman.highscore.HighScoreActivity"
-35-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:35:13-76
+35-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:35:13-76
 36            android:label="@string/app_name"
-36-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:36:13-45
+36-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:36:13-45
 37            android:screenOrientation="portrait" />
-37-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:37:13-49
+37-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:37:13-49
 38        <activity
-38-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:38:9-41:61
+38-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:38:9-41:61
 39            android:name="uva.verspeek.hangman.settings.SettingsActivity"
-39-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:39:13-74
+39-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:39:13-74
 40            android:label="@string/app_name"
-40-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:40:13-45
+40-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:40:13-45
 41            android:screenOrientation="portrait" />
-41-->D:\AllTry\git\hangman\Hangman\app\src\main\AndroidManifest.xml:41:13-49
+41-->C:\Source\documents\GitHub\hangman\Hangman\app\src\main\AndroidManifest.xml:41:13-49
 42    </application>
 43
 44</manifest>

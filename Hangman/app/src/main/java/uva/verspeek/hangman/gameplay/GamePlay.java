@@ -42,9 +42,9 @@ public class GamePlay {
 		alert.setTitle("You saved LiHua successfully!");
 		alert.setMessage("You have made "
 				+ getMistakes()
-				+ "mistakes\nCongratulations on your success in the high score list of Lihua rescue！\nYour final score: "
+				+ "mistakes.\nCongratulations on your success in the high score list of Lihua rescue！\nYour final score: "
 				+ context.cls.getScore(context.randomWord, context.maxMoves,
-						getMistakes()) + "\nPlease leave your name：");
+						getMistakes(),context.score) + "\nPlease leave your name：");
 
 		// Set an EditText view to get user input
 		final EditText name = new EditText(context);
@@ -62,7 +62,7 @@ public class GamePlay {
 							user = "Anonymous";
 						context.cls.setHighScore(user, context.cls.getScore(
 								context.randomWord, context.maxMoves,
-								getMistakes()), context.randomWord,
+								getMistakes(),context.score), context.randomWord,
 								context.gamePrefs);
 						context.cls.startHighscore(context);
 						return;
@@ -88,7 +88,7 @@ public class GamePlay {
 		}
 		context.soundPool.play(context.soundMap.get(3), 1, 1, 0, 0, 1);
 		Toast.makeText(context.getApplicationContext(),
-				"Unfortunately,\n You didn't make it to save Li Hua.\nThe word is " + context.randomWord,
+				"Unfortunately, You didn't make it to save Li Hua.\nThe word is " + context.randomWord,
 				Toast.LENGTH_LONG).show();
 
 		Runnable r = new Runnable() {
