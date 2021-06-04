@@ -44,7 +44,7 @@ public class GamePlay {
 				+ getMistakes()
 				+ "mistakes.\nCongratulations on your success in the high score list of Lihua rescue！\nYour final score: "
 				+ context.cls.getScore(context.randomWord, context.maxMoves,
-						getMistakes(),context.score) + "\nPlease leave your name：");
+				getMistakes(),context.score) + "\nPlease leave your name：");
 
 		// Set an EditText view to get user input
 		final EditText name = new EditText(context);
@@ -125,7 +125,7 @@ public class GamePlay {
 				context.words).toUpperCase();
 		context.moves = 0;
 		context.guessedLetters = new ArrayList<String>();
-		context.animationGroup = r.nextInt(2);
+		context.animationGroup = r.nextInt(3);
 		TextView movesLeft = (TextView) context.findViewById(R.id.moves);
 		movesLeft.setText("Moves left: " + (context.maxMoves - context.moves));
 		context.populateButtons();
@@ -180,6 +180,9 @@ public class GamePlay {
 
 		/* get the correct hangman animation */
 		int numberHangmans = 9;
+		if(context.animationGroup==1)numberHangmans=7;
+		if(context.animationGroup==2)numberHangmans=8;
+
 		int frame = (int) (((float) (numberHangmans) / (context.maxMoves + 1.0)) * (context.moves));
 		Log.d("FRAMES",
 				""
@@ -207,10 +210,13 @@ public class GamePlay {
 			if (frame == 0 || frame == 8)
 				frameCount = 1;
 		}
-		if(context.animationGroup==1){
-			frameCount = 9;
-			if (frame == 5)
-				frameCount = 13;
+		else if(context.animationGroup==1){
+			frameCount = 3;
+		}
+		else{
+			frameCount = 3;
+			if (frame == 0)
+				frameCount = 1;
 		}
 
 		Animation.hangman.setFramePeriod(200);

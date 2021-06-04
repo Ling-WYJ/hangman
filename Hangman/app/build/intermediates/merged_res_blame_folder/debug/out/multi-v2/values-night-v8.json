@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\AllTry\\git\\hangman\\Hangman\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\Source\\documents\\GitHub\\hangman\\Hangman\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "D:\\AllTry\\git\\hangman\\Hangman\\app\\src\\main\\res\\values-night\\colors.xml",
+                    "source": "C:\\Source\\documents\\GitHub\\hangman\\Hangman\\app\\src\\main\\res\\values-night\\colors.xml",
                     "from": {
                         "startLines": "11,7,5,10,8,9,4,3,6",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "408,220,139,361,261,309,98,59,179",
+                        "startOffsets": "397,213,134,351,253,300,94,56,173",
                         "endColumns": "44,39,38,45,46,50,39,37,39",
-                        "endOffsets": "448,255,173,402,303,355,133,92,214"
+                        "endOffsets": "437,248,168,392,295,346,129,89,208"
                     },
                     "to": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "D:\\MyDownloads\\Download\\Android\\gradle-6.8.3\\caches\\transforms-3\\57fa96ce951cc07debd3ba8722df37ee\\transformed\\appcompat-v7-28.0.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\pemerstristy\\.gradle\\caches\\transforms-3\\57fa96ce951cc07debd3ba8722df37ee\\transformed\\appcompat-v7-28.0.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

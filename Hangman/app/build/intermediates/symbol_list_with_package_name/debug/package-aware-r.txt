@@ -681,8 +681,14 @@ drawable hangmanid13
 drawable hangmanid14
 drawable hangmanid15
 drawable hangmanid16
-drawable hangmanid17
-drawable hangmanid18
+drawable hangmanid20
+drawable hangmanid21
+drawable hangmanid22
+drawable hangmanid23
+drawable hangmanid24
+drawable hangmanid25
+drawable hangmanid26
+drawable hangmanid27
 drawable ic_launcher
 drawable ic_launcher_background
 drawable ic_launcher_foreground
