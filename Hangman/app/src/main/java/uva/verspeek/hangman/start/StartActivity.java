@@ -69,7 +69,7 @@ public class StartActivity extends Activity {
 
             android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(StartActivity.this);
             builder.setTitle("Your mission");
-            builder.setMessage("Type in the letters. Guess the correct English word. Stop the tragedy from happening.");
+            builder.setMessage("Type in the letters. \nGuess the correct English word. \nStop the tragedy from happening.");
             builder.setPositiveButton("Get it", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {

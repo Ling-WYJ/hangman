@@ -147,9 +147,15 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 
 		soundMap.put(1, soundPool.load(this, R.raw.click, 1));
 		soundMap.put(2, soundPool.load(this, R.raw.correct, 1));
-		soundMap.put(3, soundPool.load(this, R.raw.lose, 1));
-		soundMap.put(4, soundPool.load(this, R.raw.win, 1));
-		soundMap.put(5, soundPool.load(this, R.raw.wrong, 1));
+		soundMap.put(3, soundPool.load(this, R.raw.lose01, 1));
+		soundMap.put(4, soundPool.load(this, R.raw.lose02, 1));
+		soundMap.put(5, soundPool.load(this, R.raw.lose03, 1));
+		soundMap.put(6, soundPool.load(this, R.raw.win, 1));
+		soundMap.put(7, soundPool.load(this, R.raw.wrong01, 1));
+		soundMap.put(8, soundPool.load(this, R.raw.wrong02, 1));
+		soundMap.put(9, soundPool.load(this, R.raw.wrong03, 1));
+		soundMap.put(10, soundPool.load(this, R.raw.tip1, 1));
+		soundMap.put(11, soundPool.load(this, R.raw.tip2, 1));
 		
 		ImageButton settingsButton = (ImageButton) findViewById(R.id.settings);
 		ImageButton tipsButton = (ImageButton) findViewById(R.id.tips);
@@ -318,7 +324,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 		selection.setBackgroundResource(R.drawable.gussed);
 		selection.setTextColor(Color.parseColor("#5a6168"));
 		selection.setOnClickListener(null);
-		this.soundPool.play(this.soundMap.get(1), 1, 1, 0, 0, 1);
+		this.soundPool.play(this.soundMap.get(1), 0.5f, 0.3f, 0, 0, 1);
 		gameplay.newGuess((String) selection.getText());
 	}
 

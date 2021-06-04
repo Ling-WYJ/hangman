@@ -36,13 +36,13 @@ public class GamePlay {
 
 		GridView keyboard = (GridView) context.findViewById(R.id.grid);
 		keyboard.setOnItemClickListener(null);
-		context.soundPool.play(context.soundMap.get(4), 1, 1, 0, 0, 1);
+		context.soundPool.play(context.soundMap.get(6), 1, 1, 0, 0, 1);
 		AlertDialog.Builder alert = new AlertDialog.Builder(context);
 
 		alert.setTitle("You saved LiHua successfully!");
 		alert.setMessage("You have made "
 				+ getMistakes()
-				+ "mistakes.\nCongratulations on your success in the high score list of Lihua rescue！\nYour final score: "
+				+ " mistakes.\nCongratulations on your success in the high score list of Lihua rescue！\nYour final score: "
 				+ context.cls.getScore(context.randomWord, context.maxMoves,
 				getMistakes(),context.score) + "\nPlease leave your name：");
 
@@ -86,9 +86,10 @@ public class GamePlay {
 			View child = keyboard.getChildAt(i);
 			child.setEnabled(false);
 		}
-		context.soundPool.play(context.soundMap.get(3), 1, 1, 0, 0, 1);
+		context.soundPool.play(context.soundMap.get(3+context.animationGroup), 1, 1, 0, 0, 1);
+
 		Toast.makeText(context.getApplicationContext(),
-				"Unfortunately, You didn't make it to save Li Hua.\nThe word is " + context.randomWord,
+				"You didn't make it to save Li Hua.\nThe word is " + context.randomWord,
 				Toast.LENGTH_LONG).show();
 
 		Runnable r = new Runnable() {
@@ -147,11 +148,11 @@ public class GamePlay {
 		context.moves = getMistakes();
 		String displayWord = context.randomWord;
 		if (!displayWord.contains(letter)) {
-			context.soundPool.play(context.soundMap.get(5), 1, 1, 0, 0, 1);
+			context.soundPool.play(context.soundMap.get(7+context.animationGroup), 1, 1, 0, 0, 1);
 			Log.d("Input",":false");
 		}
 		else {
-			context.soundPool.play(context.soundMap.get(2), 1, 1, 0, 0, 1);
+			context.soundPool.play(context.soundMap.get(2), 0.3f, 0.3f, 0, 0, 1);
 			Log.d("Input",":true");
 		}
 		TextView movesLeft = (TextView) context.findViewById(R.id.moves);
@@ -265,6 +266,7 @@ public class GamePlay {
 		// "Try the letter " + tipWord.charAt(i),
 		//		Toast.LENGTH_LONG).show();
 		context.guessedLetters.add(String.valueOf(tipWord.charAt(i)));
+		context.soundPool.play(context.soundMap.get(10), 1, 1, 0, 0, 1);
 	}
 
 	public void removeOne() {
@@ -296,6 +298,7 @@ public class GamePlay {
 		// "Try the letter " + tipWord.charAt(i),
 		//		Toast.LENGTH_LONG).show();
 		context.guessedLetters.add(String.valueOf(removeLetter.charAt(i)));
+		context.soundPool.play(context.soundMap.get(11), 0.7f, 0.7f, 0, 0, 1);
 	}
 
 }

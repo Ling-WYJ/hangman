@@ -951,9 +951,15 @@ layout test
 menu main
 raw click
 raw correct
-raw lose
+raw lose01
+raw lose02
+raw lose03
+raw tip1
+raw tip2
 raw win
-raw wrong
+raw wrong01
+raw wrong02
+raw wrong03
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
