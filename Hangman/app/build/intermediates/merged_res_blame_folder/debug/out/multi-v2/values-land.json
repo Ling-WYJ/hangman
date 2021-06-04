@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\AndroidWork\\hangman01\\Hangman-master.zip\\Hangman\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "C:\\Source\\documents\\GitHub\\hangman\\Hangman\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\1\\.gradle\\caches\\transforms-3\\57fa96ce951cc07debd3ba8722df37ee\\transformed\\appcompat-v7-28.0.0\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\pemerstristy\\.gradle\\caches\\transforms-3\\57fa96ce951cc07debd3ba8722df37ee\\transformed\\appcompat-v7-28.0.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
