@@ -77,20 +77,22 @@
         android:id="@+id/remove"
         android:layout_width="39dp"
         android:layout_height="39dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:scaleType="fitXY"
+        android:layout_above="@+id/grid"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/animation"
         android:background="#00000000"
+        android:scaleType="fitXY"
         android:src="@drawable/remove" />
 
     <ImageButton
         android:id="@+id/tips"
         android:layout_width="39dp"
         android:layout_height="39dp"
-        android:layout_below="@id/remove"
+        android:layout_above="@+id/grid"
         android:layout_alignParentLeft="true"
-        android:scaleType="fitXY"
+        android:layout_alignBottom="@+id/animation"
         android:background="#00000000"
+        android:scaleType="fitXY"
         android:src="@drawable/tips" />
 
     <pl.droidsonroids.gif.GifImageView
