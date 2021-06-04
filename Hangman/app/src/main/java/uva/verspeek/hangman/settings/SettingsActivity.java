@@ -112,6 +112,7 @@ public class SettingsActivity extends PreferenceActivity {
 					@Override
 					public void onCheckedChanged(per.stramchen.switchbuttondemo.SwitchButton view, final boolean isChecked) {
 						editor.putBoolean("mode",isChecked);
+						editor.putBoolean("change",true);
 						editor.apply();
 						Log.d("mode",isChecked?"夜间":"日间");
 						Log.d("mode",getSharedPreferences(GAME_PREFS, 0).getBoolean("mode",false)?"夜间":"日间");
